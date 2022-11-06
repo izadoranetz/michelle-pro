@@ -22,6 +22,7 @@ const Navbar = () => {
             alt="Michelle Procópio"
             layout="fixed"
             height={80}
+            id="logoMichelle"
           />
         </Link>
 

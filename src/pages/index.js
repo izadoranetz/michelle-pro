@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 
 const IndexPage = () => (
   <Layout>
@@ -18,5 +19,7 @@ const IndexPage = () => (
     </section> */}
   </Layout>
 );
+
+export const Head = () => <Seo title="Home" />
 
 export default IndexPage;
