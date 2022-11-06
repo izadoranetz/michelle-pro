@@ -1,0 +1,18 @@
+$branco: #ffffff;
+$bege: #fbf8ea;
+$amarelo-claro: #fbf8ea;
+$amarelo-forte: #f2e46b;
+$vermelho: #ef8184;
+$azul: #b6d9f1;
+$cinza: #B1B1AE;
+
+body {
+    background: $amarelo-claro;
+    color: $cinza;
+    font-family: "Gilroy Light", sans-serif;
+
+    h1 {
+        font-family: "Calibri", sans-serif;
+        background-color: $amarelo-forte;
+    }
+}

@@ -1,0 +1,31 @@
+$primary: #fbf8ea;
+@import "~bootstrap/scss/bootstrap";
+@import "../pages/style.scss";
+
+
+.navbar {
+
+    --bs-navbar-padding-y: 1rem;
+    --bs-navbar-nav-link-padding-x: 1.5rem;
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+    .navbar-brand {
+        color: $cinza;
+    }
+
+    .nav-link {
+        color: $vermelho;
+    }
+
+    .navbar-nav .nav-link.active,
+    .nav-link.hover {
+        color: $azul;
+    }
+
+    .navbar-toggler {
+        background-color: $azul;
+    }
+}
