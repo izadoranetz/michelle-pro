@@ -2,7 +2,8 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 import Footer from './Footer';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
+import Header from './Header';
 import '../assets/fonts/fonts.css';
 
 function Layout({ children }) {
@@ -18,7 +19,8 @@ function Layout({ children }) {
 
   return (
     <div className="container-fluid p-0">
-      <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
+      {/* <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
+      <Header />
       <main>{children}</main>  
       <Footer />
     </div>
