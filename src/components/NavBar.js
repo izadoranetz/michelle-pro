@@ -2,6 +2,8 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
+import './Navbar.scss';
+import '../assets/fonts/fonts.css';
 
 const isActive = ({ isCurrent }) => {
   return isCurrent
@@ -13,7 +15,7 @@ const ExactNavLink = (props) => <Link getProps={isActive} {...props} />;
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+    <nav className="navbar navbar-expand-md navbar-dark bg-primary">
       <div className="container-fluid">
 
         <Link to="/" className="navbar-brand" href="#">

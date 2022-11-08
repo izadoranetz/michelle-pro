@@ -1,0 +1,54 @@
+$primary: #fbf8ea;
+@import "../pages/global.scss";
+
+
+.navbar {
+
+    --bs-navbar-padding-y: 1rem;
+    --bs-navbar-padding-x: 1.2rem;
+    --bs-navbar-nav-link-padding-x: 1.5rem;
+
+    font-size: 1.05rem;
+    letter-spacing: 0.05rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-brand {
+    color: $cinza;
+}
+
+.nav-link {
+    color: $vermelho;
+}
+
+.navbar-nav .nav-link.active,
+.nav-link:hover {
+    color: $azul;
+}
+
+.navbar-toggler {
+    background-color: $azul;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container-fluid {
+        flex-direction: column;
+        align-items: flex-end;
+
+        .navbar-brand {
+            display: none;
+        }
+
+        .navbar-toggler {
+            margin-left: auto;
+        }
+
+        .bg-primary {
+            background-color: $branco !important;
+        }
+    }
+}

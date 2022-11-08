@@ -1,0 +1,68 @@
+@import "../pages/global.scss";
+
+.contato-infos {
+    position: absolute;
+    width: 100%;
+    margin-top: 4%;
+    bottom: 0;
+    padding: 4% 6%;
+    background-color: $azul;
+    color: $branco;
+    text-align: center;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    border-top-right-radius: 45%;
+    border-top-left-radius: 45%;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        line-height: 1.6;
+        margin-top: 1rem;
+    }
+
+    span {
+        line-height: 1.6;
+        margin-top: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: 400;
+        color: $branco;
+    }
+
+    a:hover {
+        color: $vermelho;
+    }
+
+    .titulos-footer {
+        padding-top: 1.2rem;
+        font-weight: bold;
+        line-height: 1.8;
+    }
+
+    .icones-footer {
+        background-color: $branco;
+        padding: 1rem;
+        color: $cinza;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+    }
+
+
+}
+
+@media screen and (max-width: 990px) {
+    .contato-infos {
+        bottom: auto;
+        border-top-right-radius: 30%;
+        border-top-left-radius: 35%;
+    }
+}
