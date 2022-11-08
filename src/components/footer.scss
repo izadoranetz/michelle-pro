@@ -1,10 +1,24 @@
 @import "../pages/global.scss";
 
-.contato-infos {
+
+
+.footer {
+    background-image: url('../assets/images/footer-top.svg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    
+    width: 100%;
     position: absolute;
+    bottom: 0;
+
+    padding: 2rem 0 0 0;
+    margin: 0;
+}
+
+.contato-infos {
     width: 100%;
     margin-top: 4%;
-    bottom: 0;
     padding: 4% 6%;
     background-color: $azul;
     color: $branco;
@@ -12,8 +26,6 @@
     font-family: 'Gilroy', sans-serif;
     font-size: 1.2rem;
     line-height: 1.6;
-    border-top-right-radius: 45%;
-    border-top-left-radius: 45%;
 
     ul {
         list-style-type: none;
@@ -60,9 +72,7 @@
 }
 
 @media screen and (max-width: 990px) {
-    .contato-infos {
+    .footer {
         bottom: auto;
-        border-top-right-radius: 30%;
-        border-top-left-radius: 35%;
     }
 }

@@ -4,7 +4,7 @@ import './footer.scss';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer fixed-botom">
       <div className="container-fluid">
         <div className="row contato-infos">
             <div className="col-lg-4">
