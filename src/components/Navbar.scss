@@ -1,9 +1,7 @@
-$primary: #fbf8ea;
 @import "../pages/global.scss";
 
 
 .navbar {
-
     --bs-navbar-padding-y: 1rem;
     --bs-navbar-padding-x: 1.2rem;
     --bs-navbar-nav-link-padding-x: 1.5rem;
@@ -47,8 +45,5 @@ $primary: #fbf8ea;
             margin-left: auto;
         }
 
-        .bg-primary {
-            background-color: $branco !important;
-        }
     }
 }
