@@ -15,7 +15,8 @@ const ExactNavLink = (props) => <Link getProps={isActive} {...props} />;
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-primary">
+    
+    <nav className="navbar navbar-expand-md navbar-dark">
       <div className="container-fluid">
 
         <Link to="/" className="navbar-brand" href="#">

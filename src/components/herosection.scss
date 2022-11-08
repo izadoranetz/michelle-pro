@@ -1,0 +1,55 @@
+@import "../pages/global.scss";
+
+.hero-section {
+    margin-top: 1.2rem;
+
+    .titulo-principal {
+        font-family: "Calibri", sans-serif;
+        color: $vermelho;
+        font-size: 4.5rem;
+        font-weight: 800;
+
+
+        span {
+            background-color: $amarelo-forte;
+            line-height: 1.4;
+        }
+
+    }
+
+    .subtitulo {
+        font-size: 1.2rem;
+    }
+
+    .hero-imagens {
+
+        .row {
+            justify-content: center;
+        }
+
+        .img-crianca {
+            position: relative;
+            width: 60%;
+        }
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .titulo-principal {
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+
+
+    .img-crianca {
+        width: 50%;
+    }
+
+
+}
