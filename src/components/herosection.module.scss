@@ -24,13 +24,14 @@
 
     .subtitulo {
         font-size: 1.2rem;
+        background-color: $amarelo-claro;
     }
 
     .heroImagens {
 
         .imgCrianca {
             position: relative;
-            width: 60%;
+            width: 80%;
         }
 
     }
@@ -57,9 +58,6 @@
             width: 50%;
         }
 
-        .subtitulo {
-            background-color: $amarelo-claro;
-        }
 
     }
 

@@ -1,0 +1,47 @@
+@import "../pages/global.scss";
+
+.carrosselTituloContainer {
+    background-image: url('../assets/images/features-fundo.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 290px;
+    position: relative;
+    width: 700px;
+
+    .imgFluid {
+        max-width: 100%;
+        height: auto;
+        opacity: 0.4;
+      }
+
+    .carrosselTitulo {
+        color: $azul;
+        font-family: 'Calibri', sans-serif;
+        font-weight: 800;
+
+        // font-size: calc(1.2vw + 1.2vh + 1.2vmin);
+
+        font-size: 2.6rem;
+        
+        position: absolute;    
+        top: 80px;
+        left: 80px;
+
+    }
+}
+
+.imagemCarrossel img {
+    width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .carrosselTituloContainer {
+        background-image: url('../assets/images/features-fundo-menor.png');
+        width: 500px;
+
+        .carrosselTitulo {
+            font-size: 2rem;
+        }
+    }
+}
