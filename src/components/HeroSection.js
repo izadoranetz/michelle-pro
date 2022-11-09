@@ -1,5 +1,5 @@
 import React from 'react';
-import * as styles from './herosection.module.scss';
+import * as styles from './Herosection.module.scss';
 import fotoCrianca from '../assets/images/foto-home.png';
 
 function HeroSection() {
@@ -13,7 +13,7 @@ function HeroSection() {
                 <span>É sobre </span>
                 <span>cuidado</span>
               </h1>
-              <p className={`col-lg-8 ${styles.subtitulo}`}>
+              <p className={`col-lg-8 col-md-10 col-sm-6 ${styles.subtitulo}`}>
                 Conheça a clínica referência em intervenção precoce para
                 crianças com autismo
               </p>

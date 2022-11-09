@@ -2,17 +2,22 @@
 
 .heroSection {
     margin-top: 1.2rem;
+    background: url('../assets/images/fundo-linhavermelha.png');
 
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
     .tituloPrincipal {
         font-family: "Calibri", sans-serif;
         color: $vermelho;
         font-size: 4.5rem;
         font-weight: 800;
 
-
         span {
             background-color: $amarelo-forte;
-            line-height: 1.4;
+            line-height: 1.5;
+            padding: 4px 4px;
         }
 
     }
@@ -36,15 +41,26 @@
 
 @media screen and (max-width: 768px) {
 
-    .tituloPrincipal {
-        font-size: 2rem;
-        font-weight: 800;
-        line-height: 1.2;
-    }
+    .heroSection {
 
+        background-position: bottom right;
+        background-repeat: no-repeat;
 
-    .imgCrianca {
-        width: 50%;
+        .tituloPrincipal {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.2;
+
+        }
+
+        .imgCrianca {
+            width: 50%;
+        }
+
+        .subtitulo {
+            background-color: $amarelo-claro;
+        }
+
     }
 
 
