@@ -5,11 +5,13 @@ import Layout from '../components/Layout';
 import Seo from '../components/Seo';
 import HeroSection from '../components/HeroSection';
 import Carrossel from '../components/Carrossel';
+import Box from '../components/Box';
 
 const IndexPage = () => (
   <Layout>
     <HeroSection />
     <Carrossel />
+    <Box />
   </Layout>
 );
 

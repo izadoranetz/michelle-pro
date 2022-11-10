@@ -1,7 +1,5 @@
 import React from 'react';
 import * as styles from './Carrossel.module.scss';
-import formas from '../assets/images/forma-carrossel.svg';
-import nuvem from '../assets/images/nuvem.png';
 import CarrosselItem from './CarrosselItem';
 import imgContainerFeatureAzul from '../assets/images/carrossel-item-azul.png';
 import imgContainerFeatureAmarelo from '../assets/images/carrossel-item-amarelo.png';
