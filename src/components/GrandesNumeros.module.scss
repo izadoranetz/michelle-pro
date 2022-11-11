@@ -1,0 +1,90 @@
+@import "../global.scss";
+
+.containerNumeros {
+    margin-top: 4%;
+    display: block;
+    background-color: $vermelho;
+    color: $branco;
+    text-align: center;
+
+    .fotoCriancas {
+        background-image: url('../assets/images/foto-criancas-brincando.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 100%;
+        height: 680px;
+        margin: 0;
+        padding: 0;
+
+        position: relative;
+
+        .detalheTop {
+            background-image: url('../assets/images/divisor-amarelo-claro.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            width: 100%;
+            height: 200px;
+
+
+            top: -10px;
+            position: absolute;
+
+        }
+
+        .detalheVermelhoTop {
+            background-image: url('../assets/images/divisor-top-vermelho.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            width: 100%;
+            height: 180px;
+            
+            bottom: -10px;
+            position: absolute;
+        }
+
+    }
+
+
+    .detalheVermelhoBottom {
+        background-image: url('../assets/images/divisor-bottom-vermelho.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        background-color: $amarelo-claro;
+
+        height: 250px;
+        
+    }
+
+    .grandesNumeros {
+        padding-top: 12%;
+
+        font-size: 3.5rem;
+        font-family: 'Gilroy Extrabold', sans-serif;
+    }
+
+    .numerosLegenda {
+        margin-bottom: 12%;
+        font-size: 1.8rem;
+    }
+
+    .btnAgendar {
+        background-color: $amarelo-forte;
+        width: fit-content;
+
+        color: $vermelho;
+        font-family: 'Gilroy Extrabold', sans-serif;
+        font-size: 1.5rem;
+        text-decoration: none;
+        line-height: 1.4;
+        border-radius: 32px;
+        text-transform: uppercase;
+        
+        padding: 1rem 1.5rem;
+        margin: 2rem 0;
+    }
+
+}

@@ -6,6 +6,7 @@
 
     display: inline-block;
     position: relative;
+    text-align: center;
 
     img {
         width: 400px;
@@ -35,7 +36,7 @@
             padding: 0.5rem;
 
             text-align: center;
-            font-size: 1.8rem;
+            font-size: 1.6rem;
 
             border: 1px solid $branco;
             border-radius: 32px;
@@ -47,7 +48,7 @@
             margin-top: 2%;
             padding: 2%;
 
-            width: fit-content;
+            width: 100%;
 
             font-size: 1.15rem;
             text-shadow: 2px 2px 10px #c6c4c4;
@@ -60,35 +61,26 @@
 @media screen and (max-width: 768px) {
 
     .containerFeatures {
-
         display: flex;
-        gap: 1rem;
+        justify-content: center;
 
         img {
             width: 360px;
         }
 
         .contentFeatures {
-
             top: 3.5%;
 
-
             .headerFeatures {
-
                 font-size: 1.5rem;
-
             }
 
             .textFeatures {
-
                 font-size: 1rem;
-
+                
             }
-
         }
-
     }
-
 }
 
 
