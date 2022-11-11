@@ -1,0 +1,48 @@
+@import "../global.scss";
+
+.navbarCinza {
+    color: $cinza;
+}
+
+.navbarCinza {
+    width: 200px;
+    margin: 2%;
+}
+
+.linkNavegacao a {
+    color: $vermelho;
+    font-size: 1.05rem;
+    letter-spacing: 0.05rem;
+}
+
+.linkNavegacao:hover {
+    color: $azul;
+}
+
+.navbar-toggler {
+    background-color: $azul;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container-fluid {
+        flex-direction: column;
+        align-items: flex-end;
+
+        .navbarCinza {
+            display: none;
+        }
+
+        .navbar-toggler {
+            margin-left: auto;
+        }
+
+        .bgNav {
+            background-color: $branco;
+            $primary: #fff;
+        }
+
+    }
+}
