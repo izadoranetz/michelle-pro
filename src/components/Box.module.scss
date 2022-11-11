@@ -1,0 +1,88 @@
+@import "../pages/global.scss";
+
+
+.sectionBox {
+    margin-top: 1.2rem;
+    background: url('../assets/images/linha-amarela.svg');
+
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+
+    .bolinhasVermelhas {
+        width: 150px;
+        top: 75%;
+        left: 0%;
+        bottom: 0%;
+        position: absolute;
+    }
+
+
+    .containerSaiberMais {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .arcoIris {
+            width: 250px;
+            margin-left: auto;
+        }
+
+        .contentSaberMais {
+            width: fit-content;
+            padding: 2rem;
+
+            color: $branco;
+            font-family: 'Calibri', sans-serif;
+            font-size: 2rem;
+            line-height: 1.2;
+            font-weight: bold;
+            text-align: center;
+
+            background-color: $azul;
+            border-radius: 32px;
+            box-shadow: 3px 3px 10px #c6c4c4;
+        }
+
+        .btnSaberMais {
+            background-color: $amarelo-forte;
+            width: fit-content;
+
+            color: $vermelho;
+            font-family: 'Gilroy Extrabold', sans-serif;
+            font-size: 1.5rem;
+            text-decoration: none;
+            line-height: 1.4;
+            padding: 1rem;
+            border-radius: 8px;
+            text-transform: uppercase;
+
+            margin-top: -15px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .sectionBox {
+        .bolinhasVermelhas {
+            visibility: hidden;
+        }
+
+        .containerSaiberMais {
+
+            .arcoIris {
+                display: none;
+            }
+
+            .contentSaberMais {
+                font-size: 1.6rem;
+                padding: 1rem;
+            }
+
+        }
+    }
+}
