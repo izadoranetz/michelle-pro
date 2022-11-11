@@ -2,8 +2,8 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import logo from '../assets/images/logo.svg';
-import '../assets/fonts/fonts.css';
 import * as styles from './Navbar.module.scss';
+import '../assets/fonts/fonts.css';
 
 const isActive = ({ isCurrent }) => {
   return isCurrent
@@ -15,7 +15,7 @@ const ExactNavLink = (props) => <Link getProps={isActive} {...props} />;
 
 const Navbar = () => {
   return (
-    <nav className={`navbar navbar-dark navbar-expand-md ${styles.bgNav}`}>
+    <nav className={`navbar navbar-dark navbar-expand-md`}>
       <div className={`container-fluid ${styles.containerFluid}`}>
         <img
           src={logo}
@@ -40,20 +40,20 @@ const Navbar = () => {
           id="main-navbar"
         >
           <ul className={`navbar-nav ml-auto`}>
-            <li className={`nav-item`}>
+            <li className={`nav-item ${styles.linkNavegacao}`}>
               <ExactNavLink to="/">Home</ExactNavLink>
             </li>
             <li className={`nav-item ${styles.linkNavegacao}`}>
-              <ExactNavLink to="/servicos">Serviços</ExactNavLink>
+              <ExactNavLink to="#">Serviços</ExactNavLink>
             </li>
             <li className={`nav-item ${styles.linkNavegacao}`}>
-              <ExactNavLink to="/metodo-denver">Método Denver</ExactNavLink>
+              <ExactNavLink to="#">Método Denver</ExactNavLink>
             </li>
             <li className={`nav-item ${styles.linkNavegacao}`}>
-              <ExactNavLink to="/sobre-nos">Sobre Nós</ExactNavLink>
+              <ExactNavLink to="#">Sobre Nós</ExactNavLink>
             </li>
             <li className={`nav-item ${styles.linkNavegacao}`}>
-              <ExactNavLink to="/equipe">Equipe</ExactNavLink>
+              <ExactNavLink to="#">Equipe</ExactNavLink>
             </li>
           </ul>
         </div>

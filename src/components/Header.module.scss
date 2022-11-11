@@ -1,0 +1,12 @@
+@import "../global.scss";
+
+.navbarArea {
+    background-color: $amarelo-claro;
+}
+
+@media screen and (max-width: 768px) {
+    .navbarArea {
+        background-color: $branco;
+    }
+    
+}

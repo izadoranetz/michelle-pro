@@ -3,9 +3,11 @@ $theme-colors: (
 "primary": #fbf8ea,
 );
 
-$navbar-dark-color: #fff;
+$navbar-dark-color: #b6d9f1;
 $navbar-dark-hover-color: #b6d9f1;
 $navbar-dark-active-color: #b6d9f1;
+$navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -19,7 +21,6 @@ $navbar-dark-active-color: #b6d9f1;
 
 
 $branco: #ffffff;
-$bege: #fbf8ea;
 $amarelo-claro: #fbf8ea;
 $amarelo-forte: #f2e46b;
 $vermelho: #ef8184;

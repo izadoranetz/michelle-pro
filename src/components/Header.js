@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import { useStaticQuery, graphql } from 'gatsby';
+import * as styles from './Header.module.scss';
 
 function Header() {
   const data = useStaticQuery(graphql`
@@ -15,7 +16,7 @@ function Header() {
 
   return (
     <header>
-      <div className="navbar-area">
+      <div className={styles.navbarArea}>
         <div className="container">
           <div className="row align-items-center">
             <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />

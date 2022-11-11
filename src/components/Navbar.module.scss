@@ -15,10 +15,6 @@
     letter-spacing: 0.05rem;
 }
 
-.linkNavegacao:hover {
-    color: $azul;
-}
-
 .navbar-toggler {
     background-color: $azul;
 }
@@ -39,10 +35,7 @@
             margin-left: auto;
         }
 
-        .bgNav {
-            background-color: $branco;
-            $primary: #fff;
-        }
+
 
     }
 }
