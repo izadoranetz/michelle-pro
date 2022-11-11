@@ -1,4 +1,4 @@
-@import "../pages/global.scss";
+@import "../global.scss";
 
 .carouselResize {
     width: 460px;
@@ -15,11 +15,11 @@
     position: relative;
     width: 700px;
 
-    .imgFluid {
-        max-width: 100%;
-        height: auto;
-        opacity: 0.4;
-    }
+    // .imgFluid {
+    //     max-width: 100%;
+    //     height: auto;
+    //     opacity: 0.4;
+    // }
 
     .carrosselTitulo {
         color: $azul;
