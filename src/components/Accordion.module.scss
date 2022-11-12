@@ -1,0 +1,55 @@
+@import "../global.scss";
+
+
+.secaoAccordion {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+
+
+    .boxAccordion {
+        padding: 4%;
+        width: 80%;
+
+        background-color: $branco;
+        border-radius: 32px;
+        box-shadow: 3px 3px 10px #c6c4c4;
+
+        .tituloAccordion {
+            font-family: 'Calibri', sans-serif;
+            color: $azul;
+            font-size: 2rem;
+            font-weight: bold;
+
+            background-color: $branco;
+            box-shadow: 3px 3px 10px #c6c4c4;
+        }
+
+        .textoAccordion {
+            font-family: 'Gilroy', sans-serif;
+            color: $cinza-escuro;
+            font-size: 1.4rem;
+        }
+
+
+    }
+
+    .btnSaberMais {
+        background-color: $amarelo-forte;
+        width: fit-content;
+
+        color: $vermelho;
+        font-family: 'Gilroy Extrabold', sans-serif;
+        font-size: 1.5rem;
+        text-decoration: none;
+        line-height: 1.4;
+        padding: 0.8rem 2rem;
+        border-radius: 32px;
+        text-transform: uppercase;
+
+        margin-top: -15px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
