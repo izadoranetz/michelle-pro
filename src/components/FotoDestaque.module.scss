@@ -1,0 +1,44 @@
+.containerFotoDestaque {
+    margin-top: 1%;
+    display: block;
+
+    .fotoDino {
+        background-image: url('../assets/images/foto-dinossauro.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 100%;
+        height: 800px;
+        margin: 0;
+        padding: 0;
+
+        position: relative;
+
+        .detalheTop {
+            background-image: url('../assets/images/divisor-amarelo-claro.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            width: 100%;
+            height: 200px;
+
+            top: -10px;
+            position: absolute;
+
+        }
+
+        .detalheBottom {
+            background-image: url('../assets/images/divisor-amarelo-claro2.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            width: 100%;
+            height: 200px;
+
+            bottom: 0px;
+            position: absolute;
+
+        }
+
+    }
+}

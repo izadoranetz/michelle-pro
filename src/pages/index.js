@@ -7,6 +7,7 @@ import Carrossel from '../components/Carrossel';
 import Box from '../components/Box';
 import GrandesNumeros from '../components/GrandesNumeros';
 import OutrosServicos from '../components/OutrosServicos';
+import FotoDestaque from '../components/FotoDestaque';
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <Box />
     <GrandesNumeros />
     <OutrosServicos />
+    <FotoDestaque />
   </Layout>
 );
 
