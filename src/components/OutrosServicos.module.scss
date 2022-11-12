@@ -1,0 +1,77 @@
+@import "../global.scss";
+
+
+.containerServicos {
+
+    background-image: url('../assets/images/fundo-linhas.png');
+    background-position: 30px 100px;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-bottom: 16%;
+
+    .tituloContainer {
+        background-image: url('../assets/images/nuvem-menor.png');
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 250px;
+        position: relative;
+        width: 600px;
+
+
+        .titulo {
+            color: $azul;
+            font-family: 'Calibri', sans-serif;
+            font-weight: 800;
+
+            font-size: 2.6rem;
+
+            position: absolute;
+            top: 100px;
+            left: 120px;
+        }
+
+    }
+
+    .icones {
+        margin: auto;
+        display: block;
+
+    }
+
+    .iconSubtitulos {
+        font-size: 1.2rem;
+        color: $cinza;
+        text-align: center;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .containerServicos {
+
+        .tituloContainer {
+            background: none;
+            width: auto;
+            height: auto;
+            position: relative;
+
+            margin-bottom: 3rem;
+
+            .titulo {
+                font-size: 2.5rem;
+                background-color: $branco;
+                border-radius: 8px;
+
+                position: relative;
+                text-align: center;
+                top: 20px;
+                left: 0;
+
+            }
+        }
+    }
+}

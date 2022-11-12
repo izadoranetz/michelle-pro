@@ -6,6 +6,7 @@ import HeroSection from '../components/HeroSection';
 import Carrossel from '../components/Carrossel';
 import Box from '../components/Box';
 import GrandesNumeros from '../components/GrandesNumeros';
+import OutrosServicos from '../components/OutrosServicos';
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <Carrossel />
     <Box />
     <GrandesNumeros />
+    <OutrosServicos />
   </Layout>
 );
 

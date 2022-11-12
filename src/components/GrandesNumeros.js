@@ -3,7 +3,7 @@ import * as styles from './GrandesNumeros.module.scss';
 
 function GrandesNumeros() {
   return (
-    <section className={`${styles.containerNumeros}`}>
+    <section className={styles.containerNumeros}>
       <div className={styles.fotoCriancas}>
         <div className={styles.detalheTop}></div>
         <div className={styles.detalheVermelhoTop}></div>
@@ -29,7 +29,7 @@ function GrandesNumeros() {
         </div>
         <div className="row py-5">
           <div className="col-lg-12">
-            <a href="#" className={styles.btnAgendar}>Agendar uma consulta</a>
+            <a href="/" className={styles.btnAgendar}>Agendar uma consulta</a>
           </div>
         </div>
       </div>
