@@ -42,3 +42,30 @@
 
     }
 }
+
+@media screen and (max-width: 768px) {
+    .containerFotoDestaque {
+        .fotoDino {
+            background-image: url('../assets/images/foto-dinossauro-full.png');
+            background-size: contain;
+            height: 450px;
+            background-position: 0 100px;
+        }
+
+        .detalheTop {
+            background-image: url('../assets/images/divisor-amarelo-sm-top.svg');
+            background-size: contain;
+            width: auto;
+            height: auto;
+
+            top: 30px;
+        }
+
+        .detalheBottom {
+            background-image: url('../assets/images/divisor-amarelo-sm-bt.svg');
+            background-size: contain;
+            width: auto;
+            height: auto;
+        }
+    }
+}
