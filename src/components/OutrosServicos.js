@@ -8,20 +8,23 @@ import motricidade from '../assets/images/icon-motricidade.png';
 import comunicacao from '../assets/images/icon-comunicacao.png';
 import escolar from '../assets/images/icon-escolar.png';
 import gestao from '../assets/images/icon-gestao.png';
+import bolinhasAzuis from '../assets/images/bolinhas-azuis.svg';
+
 
 function OutrosServicos() {
   return (
-    <div className={`container ${styles.containerServicos}`}>
+    <section className={`container ${styles.containerServicos}`}>
       <div className={`${styles.tituloContainer}`}>
         <h3 className={styles.titulo}>Outros Serviços</h3>
       </div>
-      <div className="container">
+     
+      <div className={`container ${styles.gridServicos}`}>
         <div className="row">
-          <div className="col-lg-3 col-sm-6 ">
+          <div className="col-lg-3 col-md-6  col-sm-6 ">
             <img className={styles.icones} src={pares} alt="Ícone Pares" />
             <p className={styles.iconSubtitulos}>Intervenção com pares</p>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <img
               className={styles.icones}
               src={alimentacao}
@@ -29,7 +32,7 @@ function OutrosServicos() {
             />
             <p className={styles.iconSubtitulos}>Alimentação independente</p>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <img
               className={styles.icones}
               src={desfralde}
@@ -37,13 +40,13 @@ function OutrosServicos() {
             />
             <p className={styles.iconSubtitulos}>Desfralde</p>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <img className={styles.icones} src={higiene} alt="Ícone Higiene" />
             <p className={styles.iconSubtitulos}>Higiene Autônoma</p>
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <img
               className={styles.icones}
               src={motricidade}
@@ -51,7 +54,7 @@ function OutrosServicos() {
             />
             <p className={styles.iconSubtitulos}>Motricidade</p>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <img
               className={styles.icones}
               src={comunicacao}
@@ -61,7 +64,7 @@ function OutrosServicos() {
               Comunicação alternativa e aumentativa
             </p>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <img
               className={styles.icones}
               src={escolar}
@@ -69,7 +72,7 @@ function OutrosServicos() {
             />
             <p className={styles.iconSubtitulos}>Inclusão escolar eficiente</p>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <img className={styles.icones} src={gestao} alt="Icone Gestão" />
             <p className={styles.iconSubtitulos}>
               Gestão de comportamento inadequado
@@ -77,7 +80,8 @@ function OutrosServicos() {
           </div>
         </div>
       </div>
-    </div>
+      <img src={bolinhasAzuis} className={styles.bolinhasAzuis} alt=" " />
+    </section>
   );
 }
 

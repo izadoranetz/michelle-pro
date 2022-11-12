@@ -3,8 +3,8 @@
 
 .containerServicos {
 
-    background-image: url('../assets/images/fundo-linhas.png');
-    background-position: 30px 100px;
+    background-image: url('../assets/images/fundo-linhas2.png');
+    background-position: 10px 0px;
     background-repeat: no-repeat;
     align-items: center;
     padding-bottom: 16%;
@@ -17,7 +17,6 @@
         height: 250px;
         position: relative;
         width: 600px;
-
 
         .titulo {
             color: $azul;
@@ -33,16 +32,29 @@
 
     }
 
-    .icones {
-        margin: auto;
-        display: block;
+    .gridServicos {
+        width: 80%;
+
+        .icones {
+            margin: auto;
+            display: block;
+
+        }
+
+        .iconSubtitulos {
+            font-size: 1.2rem;
+            color: $cinza;
+            text-align: center;
+
+        }
 
     }
 
-    .iconSubtitulos {
-        font-size: 1.2rem;
-        color: $cinza;
-        text-align: center;
+    .bolinhasAzuis {
+        width: 250px;
+        bottom: 0;
+        position: relative;
+        float: right;
 
     }
 }
@@ -53,9 +65,12 @@
 @media screen and (max-width: 768px) {
     .containerServicos {
 
+        background-image: none;
+
+
         .tituloContainer {
-            background: none;
-            width: auto;
+            background-image: none;
+            width: 100%;
             height: auto;
             position: relative;
 
@@ -73,5 +88,17 @@
 
             }
         }
+
+        .gridServicos {
+            .icones {
+                width: 60%;
+            }
+        }
+
+        .bolinhasAzuis {
+            width: 60%;
+            display: block;
+        }
+
     }
 }
