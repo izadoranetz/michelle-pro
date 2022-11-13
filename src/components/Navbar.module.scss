@@ -9,10 +9,14 @@
     margin: 2%;
 }
 
-.linkNavegacao a {
+.linkNavegacao a, .navbarLink {
     color: $vermelho;
     font-size: 1.05rem;
     letter-spacing: 0.05rem;
+}
+
+.linkNavegacao a:active, .navbarLink.active {
+    color: $azul;
 }
 
 .navbar-toggler {

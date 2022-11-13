@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Footer from './Footer';
 import Header from './Header';
 import '../assets/fonts/fonts.css';
+import * as styles from './Layout.module.scss';
 
 function Layout({ children }) {
   const data = useStaticQuery(graphql`
@@ -17,11 +18,11 @@ function Layout({ children }) {
   `);
 
   return (
-    <>
+    <div className={styles.pageContainer}>
       <Header />
-      <main>{children}</main>  
+      <main>{children}</main>
       <Footer />
-    </>
+    </div>
   );
 }
 

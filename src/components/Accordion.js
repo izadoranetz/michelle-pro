@@ -5,16 +5,16 @@ import * as styles from './Accordion.module.scss';
 function Accordion({ titulo, texto }) {
   return (
     <section className={styles.secaoAccordion}>
-      <div className="row flex-column align-content-center">
-        <div className={`${styles.boxAccordion}`}>
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
+      <div className={`row flex-column align-content-center`}>
+        <div className={`accordion-flush ${styles.boxAccordion}`}>
+          <div className={`accordion`} id={`accordionModel`}>
+            <div className={`accordion-item`}>
               <h2
-                class={`accordion-header`}
-                id="headingOne"
+                className={`accordion-header`}
+                id="flush-heading"
               >
                 <button
-                  class={`accordion-button ${styles.tituloAccordion}`}
+                  className={`accordion-button ${styles.accordionButton} ${styles.tituloAccordion}`}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
@@ -26,11 +26,11 @@ function Accordion({ titulo, texto }) {
               </h2>
               <div
                 id="collapseOne"
-                class={`accordion-collapse collapse show`}
-                aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample"
+                className={`accordion-collapse collapse show`}
+                aria-labelledby="flush-heading"
+                data-bs-parent="#accordionModel"
               >
-                <div class={`accordion-body ${styles.textoAccordion}`}>{texto}</div>
+                <div className={`accordion-body ${styles.textoAccordion}`}>{texto}</div>
               </div>
             </div>
           </div>

@@ -1,0 +1,86 @@
+@import "../global.scss";
+
+.footer {
+    background-image: url('../assets/images/footer-top.svg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    bottom: 0;
+    padding: 2rem 0 0 0;
+    margin-top: 40px;
+
+    width: 100%;
+    height: fit-content;
+
+    .contatoInfos {
+
+        background-color: $azul;
+        color: $branco;
+
+        text-align: center;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6;
+
+        margin-top: 40px;
+        padding: 4% 6%;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            line-height: 1.6;
+            margin-top: 1rem;
+        }
+
+        span {
+            line-height: 1.6;
+            margin-top: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 400;
+            color: $branco;
+        }
+
+        a:hover {
+            color: $vermelho;
+        }
+
+        .titulosFooter {
+            padding-top: 1.2rem;
+            font-weight: bold;
+            line-height: 1.8;
+        }
+
+        .iconesFooter {
+            background-color: $branco;
+            padding: 1rem;
+            color: $cinza;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    .footer {
+    
+        .contatoInfos {
+            .titulosFooter {
+                margin-top: 2rem;
+            }
+
+            .titulosFooter:first-child {
+                margin-top: 1.2rem;
+            }
+        }
+    }
+}

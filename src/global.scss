@@ -3,23 +3,6 @@ $theme-colors: (
 "primary": #fbf8ea,
 );
 
-$navbar-dark-color: #b6d9f1;
-$navbar-dark-hover-color: #b6d9f1;
-$navbar-dark-active-color: #b6d9f1;
-$navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
-
-$accordion-border-radius: 32px;
-$accordion-border-color: #fff;
-$accordion-bg: #fff;
-$accordion-button-bg: #fff;
-$accordion-button-active-bg: #fff;
-$accordion-button-color: #b6d9f1;
-$accordion-button-active-color: #b6d9f1;
-$accordion-button-focus-box-shadow: 3px 3px 10px #c6c4c4;
-$accordion-button-box-shadow: 3px 3px 10px #c6c4c4;
-
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-
 
 * {
     margin: 0;
