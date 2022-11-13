@@ -1,0 +1,58 @@
+@import "../global.scss";
+
+.secaoCtaConsulta {
+    text-align: center;
+
+    .blobEstrelas {
+        visibility: visible;
+    }
+
+    .ctaTitulo {
+        color: $vermelho;
+        font-family: 'Calibri', sans-serif;
+        font-size: 4.5rem;
+        line-height: 3rem;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+
+    }
+
+    .btnAgendar {
+        background-color: $amarelo-forte;
+        width: fit-content;
+
+        color: $vermelho;
+        font-family: 'Gilroy Extrabold', sans-serif;
+        font-size: 1.5rem;
+        text-decoration: none;
+        line-height: 1.4;
+        padding: 0.8rem 2rem;
+        border-radius: 32px;
+        text-transform: uppercase;
+
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .secaoCtaConsulta {
+        margin-top: 40px;
+
+        .blobEstrelas img {
+            display: none;
+        }
+
+        .ctaTitulo {
+            text-align: center;
+        }
+
+        .btnAgendar {
+            margin-top: 40px;
+        }
+    }
+}

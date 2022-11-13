@@ -9,6 +9,7 @@ import GrandesNumeros from '../components/GrandesNumeros';
 import OutrosServicos from '../components/OutrosServicos';
 import FotoDestaque from '../components/FotoDestaque';
 import Accordion from '../components/Accordion';
+import CtaConsulta from '../components/CtaConsulta';
 
 const IndexPage = () => (
   <Layout>
@@ -22,6 +23,7 @@ const IndexPage = () => (
       titulo="O que é o denver?"
       texto="Abordagem abrangente para todas as competências do desenvolvimento infantil para que superem os atrasos e alcancem os marcos do desenvolvimento e alcançarem os melhores resultados ao longo da vida."
     />
+    <CtaConsulta />
   </Layout>
 );
 
