@@ -44,7 +44,7 @@ const Navbar = () => {
               <ExactNavLink to="/">Home</ExactNavLink>
             </li>
             <li className={`nav-item ${styles.linkNavegacao}`}>
-              <ExactNavLink to="#">Serviços</ExactNavLink>
+              <ExactNavLink to="/servicos">Serviços</ExactNavLink>
             </li>
             <li className={`nav-item ${styles.linkNavegacao}`}>
               <ExactNavLink to="#">Método Denver</ExactNavLink>

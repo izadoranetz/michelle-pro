@@ -10,10 +10,18 @@ import OutrosServicos from '../components/OutrosServicos';
 import FotoDestaque from '../components/FotoDestaque';
 import Accordion from '../components/Accordion';
 import CtaConsulta from '../components/CtaConsulta';
+import fotoCrianca from '../assets/images/foto-home.png';
 
 const IndexPage = () => (
   <Layout>
-    <HeroSection />
+    <HeroSection
+      primParteTitulo="É sobre "
+      segParteTitulo="cuidado"
+      subtitulo="Conheça a clínica referência em intervenção precoce para
+    crianças com autismo"
+      urlImagem={fotoCrianca}
+      altImagem="Uma criança usando máscara sobre os olhos"
+    />
     <Carrossel />
     <Box />
     <GrandesNumeros />
