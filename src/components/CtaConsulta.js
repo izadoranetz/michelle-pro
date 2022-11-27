@@ -17,7 +17,7 @@ function CtaConsulta() {
             <h4 className={styles.ctaTitulo}>começo</h4>
           </div>
           <div className={`col-lg-2 align-self-end`}>
-            <img classname={styles.balao} src={balao} alt="Para cada criança" />
+            <img src={balao} alt="Para cada criança" />
           </div>
           <div className={`col-lg-2`}></div>
         </div>

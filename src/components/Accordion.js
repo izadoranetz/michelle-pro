@@ -14,7 +14,7 @@ function Accordion({ titulo, texto }) {
                 id="flush-heading"
               >
                 <button
-                  className={`accordion-button ${styles.accordionButton} ${styles.tituloAccordion}`}
+                  className={`accordion-button ${styles.tituloAccordion}`}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
