@@ -1,3 +1,13 @@
+
+**Environment:**
+
+Node version: 16.18.0
+
+Gatsby CLI version: 4.24.0
+
+Gatsby version: 4.24.7
+
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />

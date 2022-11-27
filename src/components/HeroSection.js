@@ -18,7 +18,6 @@ function HeroSection({
                 <p>
                   <span>{primParteTitulo}</span>
                 </p>
-
                 <p>
                   <span>{segParteTitulo}</span>
                 </p>
