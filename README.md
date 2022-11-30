@@ -7,6 +7,8 @@ Gatsby CLI version: 4.24.0
 
 Gatsby version: 4.24.7
 
+Bootstrap  v5.2.2
+
 
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">

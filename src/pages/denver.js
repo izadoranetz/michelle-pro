@@ -3,22 +3,20 @@ import * as React from 'react';
 import Layout from '../components/Layout';
 import Seo from '../components/Seo';
 import HeroSection from '../components/HeroSection';
-import fotoHero from '../assets/images/nossos-servicos-hero.png';
-import BoxServicos from '../components/BoxServicos';
+import fotoHero from '../assets/images/metodo-denver-hero.png';
 
 const IndexPage = () => (
   <Layout>
     <HeroSection
-      primParteTitulo="Nossos"
-      segParteTitulo="Serviços"
-      subtitulo="Cada pessoa é única, por isso ofereçemos um serviço de suporte individual e 100% personalizado"
+      primParteTitulo="Método"
+      segParteTitulo="Denver"
+      subtitulo="Eleito pela Time Magazine em 2012 como uma das maiores descobertas da medicina nos últimos anos, foi denvolvido pelo MIND Institute na Califórnia"
       urlImagem={fotoHero}
       altImagem="Uma criança usando máscara sobre os olhos"
     />
-    <BoxServicos />
   </Layout>
 );
 
-export const Head = () => <Seo title="Serviços" />;
+export const Head = () => <Seo title="Método Denver" />;
 
 export default IndexPage;

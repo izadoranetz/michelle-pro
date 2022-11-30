@@ -1,0 +1,27 @@
+import React from 'react';
+import * as styles from './BoxServicos.module.scss';
+import estrelasBottom from '../assets/images/estrelas-bottom.png';
+
+function BoxServicos() {
+  return (
+    <section className={`container ${styles.sectionBox}`}>
+      <div className={`row ${styles.containerSaiberMais}`}>
+        <div className={`col-lg-6 ${styles.contentSaberMais}`}>
+          <h3>
+            Acompanhamos crianças e famílias de todo o Brasil, com serviços
+            presenciais e à distância.
+          </h3>
+          <p>
+            Oferecemos programas de intervenção precoce e intensiva,
+            fundamentado no modelo denver (ESDM) e orientamos as famílias para
+            que ajudem seus filhos a alcançarem os melhores resultados ao longo
+            da vida.
+          </p>
+        </div>
+      </div>
+      <img src={estrelasBottom} className={styles.estrelasBottom} />
+    </section>
+  );
+}
+
+export default BoxServicos;

@@ -47,8 +47,10 @@
         background-position: bottom right;
         background-repeat: no-repeat;
 
+        background: none;
+
         .tituloPrincipal {
-            font-size: 3.5rem;
+            font-size: 3rem;
             font-weight: 800;
             line-height: 1.2;
 
@@ -57,7 +59,10 @@
         .imgCrianca {
             width: 50%;
         }
-
+        
+        .subtitulo {
+            font-size: 1rem;
+        }
 
     }
 

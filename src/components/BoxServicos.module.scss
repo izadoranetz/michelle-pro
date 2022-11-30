@@ -1,0 +1,65 @@
+@import "../global.scss";
+
+.sectionBox {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+
+    position: relative;
+
+    .estrelasBottom {
+        width: 150px;
+        top: 75%;
+        right: 5%;
+        bottom: 0%;
+        position: absolute;
+    }
+
+    .containerSaiberMais {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 0 1rem;
+
+        .contentSaberMais h3 {
+            font-size: 2.2rem;
+            font-weight: bold;
+            font-family: 'Calibri', sans-serif;
+        }
+
+        .contentSaberMais {
+            width: 80%;
+            padding: 2rem;
+
+            color: $branco;
+            font-family: 'Gilroy Light', sans-serif;
+            font-size: 1.5rem;
+            line-height: 1.5;
+            text-align: center;
+
+            background-color: $vermelho;
+            border-radius: 32px;
+            box-shadow: 3px 3px 10px #c6c4c4;
+        }
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .sectionBox {
+
+        .estrelasBottom {
+            visibility: hidden;
+        }
+
+        .containerSaiberMais {
+            .contentSaberMais {
+                font-size: 1.6rem;
+                padding: 1rem;
+            }
+
+        }
+    }
+}

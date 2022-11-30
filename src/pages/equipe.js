@@ -3,22 +3,20 @@ import * as React from 'react';
 import Layout from '../components/Layout';
 import Seo from '../components/Seo';
 import HeroSection from '../components/HeroSection';
-import fotoHero from '../assets/images/nossos-servicos-hero.png';
-import BoxServicos from '../components/BoxServicos';
+import fotoHero from '../assets/images/nossa-equipe-hero.png';
 
 const IndexPage = () => (
   <Layout>
     <HeroSection
-      primParteTitulo="Nossos"
-      segParteTitulo="Serviços"
-      subtitulo="Cada pessoa é única, por isso ofereçemos um serviço de suporte individual e 100% personalizado"
+      primParteTitulo="Nossa"
+      segParteTitulo="Equipe"
+      subtitulo="Para ter o que há de melhor na fase mais importante para seu desenvolvimento, nossa equipe conta com profissionais de diferentes áreas de formação."
       urlImagem={fotoHero}
       altImagem="Uma criança usando máscara sobre os olhos"
     />
-    <BoxServicos />
   </Layout>
 );
 
-export const Head = () => <Seo title="Serviços" />;
+export const Head = () => <Seo title="Nossa equipe" />;
 
 export default IndexPage;
