@@ -5,8 +5,8 @@ import estrelasBottom from '../assets/images/estrelas-bottom.png';
 function BoxServicos() {
   return (
     <section className={`container ${styles.sectionBox}`}>
-      <div className={`row ${styles.containerSaiberMais}`}>
-        <div className={`col-lg-6 ${styles.contentSaberMais}`}>
+      <div className={`row ${styles.containerBoxServicos}`}>
+        <div className={`col-lg-6 ${styles.contentBoxServicos}`}>
           <h3>
             Acompanhamos crianças e famílias de todo o Brasil, com serviços
             presenciais e à distância.
@@ -19,7 +19,7 @@ function BoxServicos() {
           </p>
         </div>
       </div>
-      <img src={estrelasBottom} className={styles.estrelasBottom} />
+      <img src={estrelasBottom} className={styles.estrelasBottom} alt=" " />
     </section>
   );
 }

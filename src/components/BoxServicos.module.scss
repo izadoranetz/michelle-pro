@@ -2,7 +2,7 @@
 
 .sectionBox {
     margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 6rem;
 
     position: relative;
 
@@ -14,7 +14,7 @@
         position: absolute;
     }
 
-    .containerSaiberMais {
+    .containerBoxServicos {
         margin-top: 4rem;
         display: flex;
         flex-direction: column;
@@ -22,14 +22,14 @@
 
         padding: 0 1rem;
 
-        .contentSaberMais h3 {
+        .contentBoxServicos h3 {
             font-size: 2.2rem;
             font-weight: bold;
             font-family: 'Calibri', sans-serif;
         }
 
-        .contentSaberMais {
-            width: 80%;
+        .contentBoxServicos {
+            width: 90%;
             padding: 2rem;
 
             color: $branco;
@@ -54,10 +54,14 @@
             visibility: hidden;
         }
 
-        .containerSaiberMais {
-            .contentSaberMais {
+        .containerBoxServicos {
+            
+
+            .contentBoxServicos {
+                width: fit-content;
+
                 font-size: 1.6rem;
-                padding: 1rem;
+                
             }
 
         }

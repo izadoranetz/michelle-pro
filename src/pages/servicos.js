@@ -3,8 +3,9 @@ import * as React from 'react';
 import Layout from '../components/Layout';
 import Seo from '../components/Seo';
 import HeroSection from '../components/HeroSection';
-import fotoHero from '../assets/images/nossos-servicos-hero.png';
+import fotoHero from '../assets/images/foto-home.png';
 import BoxServicos from '../components/BoxServicos';
+import ComoFunciona from '../components/ComoFunciona';
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +17,7 @@ const IndexPage = () => (
       altImagem="Uma criança usando máscara sobre os olhos"
     />
     <BoxServicos />
+    <ComoFunciona />
   </Layout>
 );
 
