@@ -17,6 +17,6 @@ const IndexPage = () => (
   </Layout>
 );
 
-export const Head = () => <Seo title="Sobre nós" />;
+export const Head = () => <Seo title="Em construção" />;
 
 export default IndexPage;

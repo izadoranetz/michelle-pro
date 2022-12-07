@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as styles from './Accordion.module.scss';
 
-function Accordion({ titulo, texto }) {
+function Accordion({ titulo, texto, url }) {
   return (
     <section className={styles.secaoAccordion}>
       <div className={`row flex-column align-content-center`}>
@@ -35,7 +35,7 @@ function Accordion({ titulo, texto }) {
             </div>
           </div>
         </div>{' '}
-        <a href="#" className={styles.btnSaberMais}>
+        <a href={url} className={styles.btnSaberMais}>
           Saber +
         </a>
       </div>

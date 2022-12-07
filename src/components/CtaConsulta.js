@@ -22,7 +22,7 @@ function CtaConsulta() {
           <div className={`col-lg-2`}></div>
         </div>
         <div className={`row`}>
-          <a href="#" className={styles.btnAgendar}>
+          <a href="mailto: michelleprocopio@clifali.com.br" className={styles.btnAgendar}>
             Agendar uma consulta
           </a>
         </div>

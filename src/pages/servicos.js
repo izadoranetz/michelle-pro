@@ -3,21 +3,21 @@ import * as React from 'react';
 import Layout from '../components/Layout';
 import Seo from '../components/Seo';
 import HeroSection from '../components/HeroSection';
-import fotoHero from '../assets/images/foto-home.png';
+import fotoHero from '../assets/images/metodo-denver-hero.png';
 import BoxServicos from '../components/BoxServicos';
 import ComoFunciona from '../components/ComoFunciona';
 
 const IndexPage = () => (
   <Layout>
     <HeroSection
-      primParteTitulo="Nossos"
-      segParteTitulo="Serviços"
-      subtitulo="Cada pessoa é única, por isso ofereçemos um serviço de suporte individual e 100% personalizado"
+      primParteTitulo="Em"
+      segParteTitulo="construção"
+      // subtitulo="Cada pessoa é única, por isso ofereçemos um serviço de suporte individual e 100% personalizado"
       urlImagem={fotoHero}
       altImagem="Uma criança usando máscara sobre os olhos"
     />
-    <BoxServicos />
-    <ComoFunciona />
+    {/* <BoxServicos />
+    <ComoFunciona /> */}
   </Layout>
 );
 

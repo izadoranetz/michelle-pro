@@ -11,16 +11,16 @@ function Footer() {
             <h3 className={`${styles.titulosFooter}`}>Menu</h3>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="#">Sobre Nós</a>
+                <a href="/em-construcao">Sobre Nós</a>
               </li>
               <li>
-                <a href="#">Contato</a>
+                <a href="/em-construcao">Contato</a>
               </li>
               <li>
-                <a href="#">Trabalhe conosco</a>
+                <a href="/em-construcao">Trabalhe conosco</a>
               </li>
             </ul>
           </div>

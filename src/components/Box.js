@@ -15,7 +15,7 @@ function Box() {
             alerta, para que cada criança se desenvolva em seu pleno potencial
           </p>
         </div>
-        <a href="#" className={styles.btnSaberMais}>
+        <a href="/em-construcao" className={styles.btnSaberMais}>
           Saber Mais+
         </a>
       </div>

@@ -8,9 +8,9 @@ import fotoHero from '../assets/images/metodo-denver-hero.png';
 const IndexPage = () => (
   <Layout>
     <HeroSection
-      primParteTitulo="Método"
-      segParteTitulo="Denver"
-      subtitulo="Eleito pela Time Magazine em 2012 como uma das maiores descobertas da medicina nos últimos anos, foi denvolvido pelo MIND Institute na Califórnia"
+      primParteTitulo="Em"
+      segParteTitulo="construção"
+      // subtitulo="Eleito pela Time Magazine em 2012 como uma das maiores descobertas da medicina nos últimos anos, foi denvolvido pelo MIND Institute na Califórnia"
       urlImagem={fotoHero}
       altImagem="Uma criança usando máscara sobre os olhos"
     />
