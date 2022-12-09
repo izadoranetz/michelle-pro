@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './NavBar';
 import { useStaticQuery, graphql } from 'gatsby';
 import * as styles from './Header.module.scss';
 
