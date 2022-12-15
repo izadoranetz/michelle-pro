@@ -30,6 +30,7 @@ const IndexPage = () => (
     <Accordion
       titulo="O que é o denver?"
       texto="Abordagem abrangente para todas as competências do desenvolvimento infantil para que superem os atrasos e alcancem os marcos do desenvolvimento e alcançarem os melhores resultados ao longo da vida."
+      url="/denver"
     />
     <CtaConsulta />
   </Layout>
