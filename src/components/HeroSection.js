@@ -1,5 +1,5 @@
 import React from 'react';
-import * as styles from './Herosection.module.scss';
+import * as styles from './herosection.module.scss';
 
 function HeroSection({
   primParteTitulo,
