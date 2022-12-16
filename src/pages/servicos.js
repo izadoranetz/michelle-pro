@@ -6,6 +6,7 @@ import HeroSection from '../components/HeroSection';
 import fotoHero from '../assets/images/nossos-servicos-hero.png';
 import BoxServicos from '../components/BoxServicos';
 import ComoFunciona from '../components/ComoFunciona';
+import Carrossel from '../components/Carrossel';
 
 const IndexPage = () => (
   <Layout>
@@ -18,6 +19,7 @@ const IndexPage = () => (
     />
     <BoxServicos />
     <ComoFunciona />
+    <Carrossel />
   </Layout>
 );
 

@@ -1,5 +1,17 @@
 @import "../global.scss";
 
+.vermelho {
+    background-color: none;
+}
+
+.amarelo {
+    background-color: none;
+}
+
+.azul {
+    background-color: none;
+}
+
 .carouselResize {
     width: 460px;
 
@@ -32,6 +44,20 @@
 
 
 @media screen and (max-width: 768px) {
+
+    .vermelho {
+        background-color: $vermelho;
+    }
+    
+    .amarelo {
+        background-color: $amarelo-forte;
+    }
+    
+    .azul {
+        background-color: $azul;
+    }
+
+
     .carrosselTituloContainer {
         background: none;
         width: 100%;
