@@ -12,7 +12,7 @@ function HeroSection({
     <div id="home" className={styles.heroSection}>
       <div className="container">
         <div className="row align-items-center position-relative">
-          <div className="col-lg-7 col-sm-6">
+          <div className="col-lg-6 col-sm-12">
             <div className="container">
               <h1 className={`col-lg-6 col-md-12 col-sm-12 ${styles.tituloPrincipal}`}>
                 <p>
@@ -27,7 +27,7 @@ function HeroSection({
               </p>
             </div>
           </div>
-          <div className="col-lg-5 col-sm-6">
+          <div className="col-lg-6 col-sm-12">
             <div className={styles.heroImagens}>
               <div className="row d-flex justify-content-center">
                 <img

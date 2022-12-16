@@ -50,9 +50,9 @@
         background: none;
 
         .tituloPrincipal {
-            font-size: 3rem;
             font-weight: 800;
             line-height: 1.2;
+            text-align: center;
 
         }
 
@@ -61,7 +61,8 @@
         }
         
         .subtitulo {
-            font-size: 1rem;
+            font-size: 1.5rem;
+            text-align: center;
         }
 
     }
