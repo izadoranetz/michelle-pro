@@ -11,6 +11,7 @@ import FotoDestaque from '../components/FotoDestaque';
 import Accordion from '../components/Accordion';
 import CtaConsulta from '../components/CtaConsulta';
 import fotoCrianca from '../assets/images/foto-home.png';
+import TituloNuvem from '../components/TituloNuvem';
 
 const IndexPage = () => (
   <Layout>
@@ -22,7 +23,7 @@ const IndexPage = () => (
       urlImagem={fotoCrianca}
       altImagem="Uma criança usando máscara sobre os olhos"
     />
-    
+    <TituloNuvem titulo="O que fazemos de melhor" />
     <Carrossel />
     <Box />
     <GrandesNumeros />

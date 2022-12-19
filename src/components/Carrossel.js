@@ -7,11 +7,7 @@ import imgContainerFeatureVermelho from '../assets/images/carrossel-item-vermelh
 
 function Carrossel() {
   return (
-    <div className="container">
-      <div className={`${styles.carrosselTituloContainer}`}>
-        <span className={styles.carrosselTitulo}>O que fazemos de melhor!</span>
-      </div>
-
+    <div className="container py-5">
       <div className="container-fluid">
         <div className="row flex-lg-row justify-content-lg-between align-items-center flex-sm-column p-sm-0">
           <div className={`col-lg-4 col-md-6`}>
