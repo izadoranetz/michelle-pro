@@ -15,7 +15,7 @@ const IndexPage = () => (
       urlImagem={fotoHero}
       altImagem="Uma criança usando máscara sobre os olhos"
     />
-    <TituloNuvem titulo="O que é o modelo denver"/>
+    <TituloNuvem titulo="O que é o Modelo Denver?" cor="fundoAzul" />
   </Layout>
 );
 

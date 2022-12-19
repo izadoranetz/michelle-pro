@@ -23,7 +23,7 @@ const IndexPage = () => (
       urlImagem={fotoCrianca}
       altImagem="Uma criança usando máscara sobre os olhos"
     />
-    <TituloNuvem titulo="O que fazemos de melhor" />
+    <TituloNuvem titulo="O que fazemos de melhor" cor="fundoBranco" />
     <Carrossel />
     <Box />
     <GrandesNumeros />

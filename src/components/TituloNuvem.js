@@ -1,10 +1,10 @@
 import React from 'react';
 import * as styles from './TituloNuvem.module.scss';
 
-function TituloNuvem({titulo}) {
+function TituloNuvem({cor, titulo}) {
   return (
     <div className="container">
-      <div className={styles.TituloContainer}>
+      <div className={`${styles.TituloContainer} ${styles[cor]}`}>
         <span className={styles.Titulo}>{titulo}</span>
       </div>
     </div>
