@@ -1,6 +1,6 @@
 import React from 'react';
 import * as styles from './CtaConsulta.module.scss';
-import blobEstrelas from '../assets/images/blob-estrelas.svg';
+import blobEstrelas from '../assets/images/blob-estrelas.png';
 import balao from '../assets/images/balao-frase.png';
 
 function CtaConsulta() {

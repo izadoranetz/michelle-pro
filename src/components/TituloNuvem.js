@@ -4,8 +4,8 @@ import * as styles from './TituloNuvem.module.scss';
 function TituloNuvem({cor, titulo}) {
   return (
     <div className="container">
-      <div className={`${styles.TituloContainer} ${styles[cor]}`}>
-        <span className={styles.Titulo}>{titulo}</span>
+      <div className={`${styles.tituloContainer} ${styles[cor]}`}>
+        <span className={styles.titulo}>{titulo}</span>
       </div>
     </div>
   );

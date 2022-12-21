@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "Home",
-        "Serviços"
+        "Serviços",
+        "Método Denver"
     ]
 }

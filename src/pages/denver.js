@@ -5,6 +5,7 @@ import Seo from '../components/Seo';
 import HeroSection from '../components/HeroSection';
 import fotoHero from '../assets/images/metodo-denver-hero.png';
 import TituloNuvem from '../components/TituloNuvem';
+import BoxOqueEModeloDenver from '../components/BoxOqueEModeloDenver';
 
 const IndexPage = () => (
   <Layout>
@@ -15,7 +16,7 @@ const IndexPage = () => (
       urlImagem={fotoHero}
       altImagem="Uma criança usando máscara sobre os olhos"
     />
-    <TituloNuvem titulo="O que é o Modelo Denver?" cor="fundoAzul" />
+    <BoxOqueEModeloDenver />
   </Layout>
 );
 
