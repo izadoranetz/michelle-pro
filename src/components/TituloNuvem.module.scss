@@ -47,8 +47,8 @@
         
         border-radius: 8px;
 
-        padding: 4px;
-        margin-bottom: 16px;
+        padding: 8px 4px;
+        margin: 12px 0;
 
         .titulo {
             position: relative;
@@ -61,11 +61,13 @@
 
     .fundoBranco {
         background-image: none;
-        background-color: $branco;
+        // background-color: $branco;
+        color: $cinza;
     }
     
     .fundoAzul {
         background-image: none;
-        background-color: $azul;
+        // background-color: $azul;
+        color: $cinza;
     }
 }
