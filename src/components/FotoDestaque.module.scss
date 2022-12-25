@@ -1,14 +1,15 @@
 @import "../global.scss";
 
 .containerFotoDestaque {
-    margin-top: 1%;
+    margin: 2rem 0;
     position: relative;
-    height: 800px;
+    width: 100%;
 
     .foto {
-        width: 100%;
         margin: 0;
         padding: 0;
+        
+        width: 100%;
 
         position: relative;
         z-index: -1;
@@ -18,12 +19,11 @@
     .detalheTop {
         position: absolute;
         z-index: 1;
-        top: 0;
+        top: -2px;
 
         margin: 0;
         padding: 0;
 
-        height: 210px;
         width: 100%;
         
 
@@ -32,12 +32,11 @@
     .detalheBottom {
         position: absolute;
         z-index: 1;
-        bottom: -50px;
+        bottom: -2px;
 
         margin: 0;
         padding: 0;
 
-        height: 230px;
         width: 100%;
 
     }
@@ -45,11 +44,6 @@
 
 @media screen and (max-width: 768px) {
     .containerFotoDestaque {
-        height: 300px;
-
-        .foto {
-            height: 300px;
-        }
 
         .detalheTop {
             width: 100%;
