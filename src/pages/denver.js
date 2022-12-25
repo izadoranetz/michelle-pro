@@ -8,11 +8,12 @@ import BoxOqueEModeloDenver from '../components/BoxOqueEModeloDenver';
 import AbordagemAbrangente from '../components/AbordagemAbrangente';
 import FotoDestaque from '../components/FotoDestaque';
 import fotoDenver from '../assets/images/foto-denver.png';
+import BoxPqMetodoDenver from '../components/BoxPqMetodoDenver';
 
 const IndexPage = () => (
   <Layout>
     <HeroSection
-      primParteTitulo="Método"
+      primParteTitulo="Modelo"
       segParteTitulo="Denver"
       subtitulo="Eleito pela Time Magazine em 2012 como uma das maiores descobertas da medicina nos últimos anos, foi denvolvido pelo MIND Institute na Califórnia"
       urlImagem={fotoHero}
@@ -21,6 +22,7 @@ const IndexPage = () => (
     <AbordagemAbrangente />
     <BoxOqueEModeloDenver />
     <FotoDestaque urlImagem={fotoDenver} alt="Foto de uma criança em frente a uma mesa brincando" />
+    <BoxPqMetodoDenver />
   </Layout>
 );
 

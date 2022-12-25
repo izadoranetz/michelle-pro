@@ -47,7 +47,7 @@ const Navbar = () => {
               <ExactNavLink to="/servicos">Serviços</ExactNavLink>
             </li>
             <li className={`nav-item ${styles.linkNavegacao}`}>
-              <ExactNavLink to="/denver">Método Denver</ExactNavLink>
+              <ExactNavLink to="/denver">Modelo Denver</ExactNavLink>
             </li>
             <li className={`nav-item ${styles.linkNavegacao}`}>
               <ExactNavLink to="/sobre-nos">Sobre Nós</ExactNavLink>

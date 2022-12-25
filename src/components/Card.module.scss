@@ -1,0 +1,51 @@
+@import "../global.scss";
+
+.cardContainer {
+    padding: 2rem;
+
+    background-color: $branco;
+    border-radius: 32px;
+    box-shadow: 3px 3px 10px #c6c4c4;
+
+    .tituloCard {
+        font-family: 'Calibri', sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+
+        padding: 1.4rem;
+
+        background-color: $branco;
+        box-shadow: 3px 3px 10px #c6c4c4;
+        border-radius: 32px;
+    }
+
+    .textoCard {
+        font-family: 'Gilroy', sans-serif;
+        color: $cinza-escuro;
+        font-size: 1.2rem;
+
+        padding: 1.6rem;
+    }
+}
+
+.amarelo {
+    color: $amarelo-forte;
+}
+
+.azul {
+    color: $azul;
+}
+
+.vermelho {
+    color: $vermelho;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cardContainer {
+    
+        .textoCard {
+            padding: 1.4rem;
+        }
+    }
+}
