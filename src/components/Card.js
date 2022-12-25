@@ -1,5 +1,4 @@
 import React from 'react';
-
 import * as styles from './Card.module.scss';
 
 function Card({ titulo, texto, cor }) {
