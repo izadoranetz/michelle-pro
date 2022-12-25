@@ -27,19 +27,20 @@
         align-items: center;
 
         .headerFeatures {
-            padding: 4%;
+            padding: 1rem 1.6rem;
             margin: 2% 6%;
 
             width: fit-content;
-            padding: 0.5rem;
 
             text-align: center;
             font-size: 1.6rem;
 
-            border: 1px solid $branco;
+            border: 1px solid rgba($color: $branco, $alpha: 0.6);
             border-radius: 32px;
 
-            box-shadow: 3px 3px 20px #c6c4c4;
+            background-color: rgba($color: $branco, $alpha: 0.1);
+
+            box-shadow: 3px 3px 20px rgba($color: $cinza, $alpha: 0.4);
         }
 
         .textFeatures {

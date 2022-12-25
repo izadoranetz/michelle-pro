@@ -1,0 +1,109 @@
+@import '../global.scss';
+
+.card {
+    padding: 2rem;
+    
+    width: 100%;
+    height: 100%;
+
+    border-radius: 32px;
+    box-shadow: 3px 3px 10px #c6c4c4;
+
+    cursor: pointer;
+
+    .cardFront,
+    .cardBack {
+        height: 100%;
+    }
+
+    .cardFront {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .tituloCard {
+            font-family: 'Gilroy Light', sans-serif;
+            font-size: 1.2rem;
+            letter-spacing: 0.1rem;
+            color: $branco;
+            text-align: center;
+            text-shadow: 1px 0 10px rgba($color: $cinza, $alpha: 0.8);
+
+            padding: 1.2rem;
+            border: 1px solid rgba($color: $branco, $alpha: 0.2);
+            border-radius: 32px;
+
+            background-color: rgba($color: $branco, $alpha: 0.1);
+
+            box-shadow: 3px 3px 20px rgba($color: $cinza, $alpha: 0.4);
+        }
+
+        .icones {
+            width: 280px;
+            margin: 0 auto;
+        }
+    }
+
+    .cardBack {
+        width: 100%;
+
+        .headerCardBack {
+            display: flex;
+            justify-content: right;
+
+            .iconesMenor {
+                width: 112px;
+            }
+        }
+
+       
+        .texto {
+            color: $branco;
+
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+            padding: 0;
+        }
+
+        .pageItem {
+            list-style: none;
+            margin: 1rem 0.5rem;
+        }
+
+        .pageLink {
+            border-radius: 50%;
+            border: 1px solid $branco;
+
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+}
+
+
+.amarelo {
+    background-color: $amarelo-forte;
+}
+
+.azul {
+    background-color: $azul;
+}
+
+.vermelho {
+    background-color: $vermelho;
+}
+
+// @media screen and (max-width: 768px) {
+//     .card {
+        
+//     }
+// }

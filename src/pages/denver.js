@@ -9,6 +9,7 @@ import AbordagemAbrangente from '../components/AbordagemAbrangente';
 import FotoDestaque from '../components/FotoDestaque';
 import fotoDenver from '../assets/images/foto-denver.png';
 import BoxPqMetodoDenver from '../components/BoxPqMetodoDenver';
+import IntervencaoAjuda from '../components/IntervencaoAjuda';
 
 const IndexPage = () => (
   <Layout>
@@ -23,6 +24,7 @@ const IndexPage = () => (
     <BoxOqueEModeloDenver />
     <FotoDestaque urlImagem={fotoDenver} alt="Foto de uma criança em frente a uma mesa brincando" />
     <BoxPqMetodoDenver />
+    <IntervencaoAjuda />
   </Layout>
 );
 
