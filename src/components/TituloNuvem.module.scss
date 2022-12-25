@@ -13,10 +13,18 @@
 
     z-index: 1;
 
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
     .titulo {
         position: absolute;
+
+        width: fit-content;
+
         top: 80px;
-        left: 80px;
+        // left: 80px;
+
 
         font-family: 'Calibri', sans-serif;
         font-weight: 800;
@@ -31,6 +39,12 @@
     background-image: url('../assets/images/nuvem.png');
     color: $azul;
     width: 600px;
+}
+
+.fundoBrancoMenor {
+    background-image: url('../assets/images/nuvem-menor.png');
+    color: $azul;
+    width: 500px;
 }
 
 .fundoBrancoFlor {
@@ -69,6 +83,12 @@
     }
 
     .fundoBranco {
+        background-image: none;
+        // background-color: $branco;
+        color: $cinza;
+    }
+
+    .fundoBrancoMenor {
         background-image: none;
         // background-color: $branco;
         color: $cinza;

@@ -7,7 +7,7 @@ function TituloNuvem({ cor, titulo}) {
       className="container"
     >
       <div className={`${styles.tituloContainer} ${styles[cor]}`}>
-        <span className={styles.titulo}>{titulo}</span>
+        <div className={styles.titulo}>{titulo}</div>
       </div>
     </div>
   );
