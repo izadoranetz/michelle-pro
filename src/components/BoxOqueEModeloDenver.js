@@ -24,25 +24,27 @@ function BoxOqueEModeloDenver() {
       <div className={`container ${styles.Detalhes}`}>
         <img className={styles.tresEstrelas} src={tresEstrelas} alt=" " />
         <div className="row justify-content-between flex-wrap">
-          <div
-            className={`col-lg-5 col-md-12 ${styles.boxDetalhes} ${styles.boxAzul}`}
-          >
-            <p className={styles.boxTexto}>
-              O modelo se destaca por ajudar as crianças com autismo se tornem
-              participantes mais ativos no mundo. Iniciando e aceitando
-              interações com outras pessoas, pois as interações sociais estão
-              diretamente relacionadas as oportunidades de aprendizagem.
-            </p>
+          <div className="col-lg-6 col-md-12 mb-5">
+            <div className={`${styles.boxDetalhes} ${styles.boxAzul}`}>
+              <p className={styles.boxTexto}>
+                O modelo se destaca por ajudar as crianças com autismo se tornem
+                participantes mais ativos no mundo. Iniciando e aceitando
+                interações com outras pessoas, pois as interações sociais estão
+                diretamente relacionadas as oportunidades de aprendizagem.
+              </p>
+            </div>
           </div>
-          <div
-            className={`col-lg-5 col-md-12 ${styles.boxDetalhes} ${styles.boxVermelho}`}
-          >
-            <p className={styles.boxTexto}>
-              Nosso foco é trazer a criança para uma relação social, interativa
-              e coordenada durante a maior parte do tempo do seu dia, pois a
-              aprendizagem se dá nas trocas sociais.
-            </p>
+          <div className="col-lg-6 col-md-12  mb-5">
+            <div className={`${styles.boxDetalhes} ${styles.boxVermelho}`}>
+              <p className={styles.boxTexto}>
+                Nosso foco é trazer a criança para uma relação social,
+                interativa e coordenada durante a maior parte do tempo do seu
+                dia, pois a aprendizagem se dá nas trocas sociais.
+              </p>
+            </div>
           </div>
+
+      
         </div>
       </div>
     </section>

@@ -12,6 +12,7 @@ import Accordion from '../components/Accordion';
 import CtaConsulta from '../components/CtaConsulta';
 import fotoCrianca from '../assets/images/foto-home.png';
 import TituloNuvem from '../components/TituloNuvem';
+import fotoCriancas from '../assets/images/foto-dinossauro.png';
 
 const IndexPage = () => (
   <Layout>
@@ -23,12 +24,12 @@ const IndexPage = () => (
       urlImagem={fotoCrianca}
       altImagem="Uma criança usando máscara sobre os olhos"
     />
-    <TituloNuvem titulo="O que fazemos de melhor" cor="fundoBranco" />
+    <TituloNuvem titulo="O que fazemos de melhor" cor="fundoBrancoFlor" />
     <Carrossel />
     <Box />
     <GrandesNumeros />
     <OutrosServicos />
-    <FotoDestaque />
+    <FotoDestaque urlImagem={fotoCriancas} alt="Imagem de duas crianças brincando juntas" />
     <Accordion
       titulo="O que é o denver?"
       texto="Abordagem abrangente para todas as competências do desenvolvimento infantil para que superem os atrasos e alcancem os marcos do desenvolvimento e alcançarem os melhores resultados ao longo da vida."

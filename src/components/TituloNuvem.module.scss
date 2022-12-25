@@ -4,6 +4,7 @@
 
 .tituloContainer {
     height: 290px;
+    padding: 2rem 0;
     position: relative;
 
     background-position: top left;
@@ -27,6 +28,12 @@
 }
 
 .fundoBranco {
+    background-image: url('../assets/images/nuvem.png');
+    color: $azul;
+    width: 600px;
+}
+
+.fundoBrancoFlor {
     background-image: url('../assets/images/features-fundo.png');
     color: $azul;
     width: 700px;
@@ -67,6 +74,12 @@
         color: $cinza;
     }
     
+    .fundoBrancoFlor {
+        background-image: none;
+        // background-color: $branco;
+        color: $cinza;
+    }
+
     .fundoAzul {
         background-image: none;
         // background-color: $azul;

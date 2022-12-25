@@ -1,0 +1,71 @@
+@import "../global.scss";
+
+.sectionAbordagem {
+    margin: 6rem 0;
+
+    display: flex;
+    flex-direction: column;
+
+    .containerAbordagem {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        position: relative;
+
+        .abordagemContainerTitulo {
+            position: relative;
+
+            .passaroAmarelo {
+                position: absolute;
+                top: -60px;
+                left: 400px;
+            }
+        }
+
+        .abordagemContainerTexto {
+            .textoAbordagem {
+                padding-left: 32px;
+                font-size: 1.2rem;
+            }
+        }
+
+
+        .rodaAbordagem {
+            width: 100%;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .sectionAbordagem {
+        margin: 2rem 0;
+
+        background-image: url('../assets/images/fundo-abordagem-mobile.png');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: contain;
+
+        .containerAbordagem {
+
+            .abordagemContainerTitulo {
+    
+                .passaroAmarelo {
+                    visibility: hidden;
+                    display: none;
+                }
+            }
+    
+            .abordagemContainerTexto {
+                .textoAbordagem {
+                    font-size: 1.4rem;
+                padding-left: 8px;
+                }
+            }
+
+        }
+
+    }
+}
