@@ -15,7 +15,7 @@
     .cardFront,
     .cardBack {
         height: 100%;
-        
+
     }
 
     .cardFront {
@@ -58,6 +58,12 @@
 
     .cardBack {
         width: 100%;
+
+        transition: 0.5s opacity;
+
+        &:active {
+            opacity: 0;
+        }
 
         .headerCardBack {
             display: flex;
