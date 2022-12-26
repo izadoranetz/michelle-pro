@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as styles from './Accordion.module.scss';
 
-function Accordion({ itens, url }) {
+function Accordion({ itens, url, labelBotao }) {
   return (
     <section className={styles.secaoAccordion}>
       <div className={`row flex-column align-content-center`}>
@@ -37,9 +37,11 @@ function Accordion({ itens, url }) {
             ))}
           </div>
         </div>
-        <a href={url} className={styles.btnSaberMais}>
-          Saber +
-        </a>
+        {url && (
+          <a href={url} className={styles.btnSaberMais}>
+            {labelBotao}
+          </a>
+        )}
       </div>
     </section>
   );
@@ -49,7 +51,7 @@ Accordion.propTypes = {
   itens: PropTypes.arrayOf(PropTypes.shape({
     titulo: PropTypes.node.isRequired,
     texto: PropTypes.node.isRequired,
-    cor: PropTypes.string, // adicione esta propriedade para armazenar a cor do título
+    cor: PropTypes.string,
   })).isRequired,
 };
 export default Accordion;

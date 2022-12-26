@@ -3,7 +3,8 @@
 .secaoAccordion {
     display: flex;
     flex-direction: column;
-    padding: 4%;
+    padding: 4rem;
+    margin: 0;
 
     background: url('../assets/images/linha-amarela-fundo2.svg');
     background-position: top center;
@@ -12,8 +13,8 @@
 
 
     .boxAccordion {
-        padding: 4%;
-        width: 80%;
+        padding: 2rem;
+        width: 75%;
 
         background-color: $branco;
         border-radius: 32px;
@@ -71,4 +72,17 @@
         margin-right: auto;
 
     }
+}
+
+@media screen and (max-width: 768px) {
+
+    .secaoAccordion {
+        padding: 1rem;
+
+        .boxAccordion {
+            margin: 1.5rem 0;
+            width: 90%;
+        }
+    }
+
 }

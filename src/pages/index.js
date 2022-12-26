@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Seo from '../components/Seo';
 import HeroSection from '../components/HeroSection';
@@ -42,12 +42,7 @@ const IndexPage = () => (
       urlImagem={fotoCriancas}
       alt="Imagem de duas crianças brincando juntas"
     />
-    {/* <Accordion
-      titulo="O que é o denver?"
-      texto="Abordagem abrangente para todas as competências do desenvolvimento infantil para que superem os atrasos e alcancem os marcos do desenvolvimento e alcançarem os melhores resultados ao longo da vida."
-      url="/denver"
-    /> */}
-    <Accordion itens={itens} url="/denver" />
+    <Accordion itens={itens} url="/denver" labelBotao="Saber +" />
     <CtaConsulta />
   </Layout>
 );
