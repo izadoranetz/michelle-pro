@@ -14,6 +14,15 @@ import fotoCrianca from '../assets/images/foto-home.png';
 import TituloNuvem from '../components/TituloNuvem';
 import fotoCriancas from '../assets/images/foto-dinossauro.png';
 
+const itens = [
+  {
+    titulo: 'O que é o denver?',
+    texto:
+      'Abordagem abrangente para todas as competências do desenvolvimento infantil para que superem os atrasos e alcancem os marcos do desenvolvimento e alcançarem os melhores resultados ao longo da vida.',
+    cor: 'azul',
+  },
+];
+
 const IndexPage = () => (
   <Layout>
     <HeroSection
@@ -29,12 +38,16 @@ const IndexPage = () => (
     <Box />
     <GrandesNumeros />
     <OutrosServicos />
-    <FotoDestaque urlImagem={fotoCriancas} alt="Imagem de duas crianças brincando juntas" />
-    <Accordion
+    <FotoDestaque
+      urlImagem={fotoCriancas}
+      alt="Imagem de duas crianças brincando juntas"
+    />
+    {/* <Accordion
       titulo="O que é o denver?"
       texto="Abordagem abrangente para todas as competências do desenvolvimento infantil para que superem os atrasos e alcancem os marcos do desenvolvimento e alcançarem os melhores resultados ao longo da vida."
       url="/denver"
-    />
+    /> */}
+    <Accordion itens={itens} url="/denver" />
     <CtaConsulta />
   </Layout>
 );

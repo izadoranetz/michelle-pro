@@ -2,39 +2,41 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as styles from './Accordion.module.scss';
 
-function Accordion({ titulo, texto, url }) {
+function Accordion({ itens, url }) {
   return (
     <section className={styles.secaoAccordion}>
       <div className={`row flex-column align-content-center`}>
         <div className={`accordion-flush ${styles.boxAccordion}`}>
           <div className={`accordion`} id={`accordionModel`}>
-            <div className={`accordion-item`}>
-              <h2
-                className={`accordion-header`}
-                id="flush-heading"
-              >
-                <button
-                  className={`accordion-button ${styles.tituloAccordion}`}
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
+            {itens.map((item, index) => (
+              <div className={`accordion-item`} key={index}>
+                <h2
+                  className={`accordion-header`}
+                  id={`flush-heading-${index}`}
                 >
-                  {titulo}
-                </button>
-              </h2>
-              <div
-                id="collapseOne"
-                className={`accordion-collapse collapse show`}
-                aria-labelledby="flush-heading"
-                data-bs-parent="#accordionModel"
-              >
-                <div className={`accordion-body ${styles.textoAccordion}`}>{texto}</div>
+                  <button
+                    className={`accordion-button ${styles.tituloAccordion} ${styles[item.cor]}`}
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target={`#collapse-${index}`}
+                    aria-expanded="true"
+                    aria-controls={`collapse-${index}`}
+                  >
+                    {item.titulo}
+                  </button>
+                </h2>
+                <div
+                  id={`collapse-${index}`}
+                  className={`accordion-collapse collapse show`}
+                  aria-labelledby={`flush-heading-${index}`}
+                  data-bs-parent="#accordionModel"
+                >
+                  <div className={`accordion-body ${styles.textoAccordion}`}>{item.texto}</div>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
-        </div>{' '}
+        </div>
         <a href={url} className={styles.btnSaberMais}>
           Saber +
         </a>
@@ -44,8 +46,10 @@ function Accordion({ titulo, texto, url }) {
 }
 
 Accordion.propTypes = {
-  titulo: PropTypes.node.isRequired,
-  texto: PropTypes.node.isRequired,
+  itens: PropTypes.arrayOf(PropTypes.shape({
+    titulo: PropTypes.node.isRequired,
+    texto: PropTypes.node.isRequired,
+    cor: PropTypes.string, // adicione esta propriedade para armazenar a cor do título
+  })).isRequired,
 };
-
 export default Accordion;

@@ -19,17 +19,30 @@
         border-radius: 32px;
         box-shadow: 3px 3px 10px #c6c4c4;
 
+
         .tituloAccordion {
             font-family: 'Calibri', sans-serif;
-            color: $azul;
             font-size: 2rem;
             font-weight: bold;
 
             background-color: $branco;
             box-shadow: 3px 3px 10px #c6c4c4;
             border-radius: 32px;
+
+            margin: 16px 0;
         }
 
+        .azul {
+            color: $azul;
+        }
+
+        .amarelo {
+            color: $amarelo-forte;
+        }
+
+        .vermelho {
+            color: $vermelho;
+        }
 
         .textoAccordion {
             font-family: 'Gilroy', sans-serif;
