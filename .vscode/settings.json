@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "Home",
         "Serviços",
-        "Método Denver"
+        "Método Denver",
+        "Equipe"
     ]
 }

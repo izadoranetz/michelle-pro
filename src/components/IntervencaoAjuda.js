@@ -1,14 +1,14 @@
 import * as React from 'react';
 import * as styles from './IntervencaoAjuda.module.scss';
 import TituloNuvem from './TituloNuvem';
-import pares from '../assets/images/icon-pares.png';
-import alimentacao from '../assets/images/icon-alimentacao.png';
-import desfralde from '../assets/images/icon-desfralde.png';
-import higiene from '../assets/images/icon-higiene.png';
-import motricidade from '../assets/images/icon-motricidade.png';
-import comunicacao from '../assets/images/icon-comunicacao.png';
-import escolar from '../assets/images/icon-escolar.png';
-import gestao from '../assets/images/icon-gestao.png';
+import pares from '../assets/images/pares.png';
+import alimentacao from '../assets/images/alimentacao.png';
+import desfralde from '../assets/images/desfralde.png';
+import higiene from '../assets/images/higiene.png';
+import motricidade from '../assets/images/motricidade.png';
+import comunicacao from '../assets/images/comunicacao.png';
+import escolar from '../assets/images/escolar.png';
+import gestao from '../assets/images/gestao.png';
 import CardColorido from './CardColorido';
 
 function IntervencaoAjuda() {

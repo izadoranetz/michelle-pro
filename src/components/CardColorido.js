@@ -54,10 +54,10 @@ function CardColorido({ icone, titulo, cor, alt, texto, texto2 }) {
       ) : (
         <>
           <div className={styles.cardFront}>
-            <img className={styles.icones} src={icone} alt={alt} />
-            <div className={`${styles.tituloCard}`}>
-              {titulo}
+            <div className={styles.iconesContainer}>
+              <img className={styles.icones} src={icone} alt={alt} />
             </div>
+            <div className={`${styles.tituloCard}`}>{titulo}</div>
           </div>
         </>
       )}

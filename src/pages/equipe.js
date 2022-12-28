@@ -4,6 +4,8 @@ import Layout from '../components/Layout';
 import Seo from '../components/Seo';
 import HeroSection from '../components/HeroSection';
 import fotoHero from '../assets/images/nossa-equipe-hero.png';
+import CardsEquipe from '../components/CardsEquipe';
+
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +16,7 @@ const IndexPage = () => (
       urlImagem={fotoHero}
       altImagem="Uma criança usando máscara sobre os olhos"
     />
+    <CardsEquipe />
   </Layout>
 );
 
