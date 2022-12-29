@@ -39,7 +39,6 @@ function Carrossel() {
         </div>
       </div>
 
-
       {/* <div className="container-fluid">
         <div className="row flex-lg-row justify-content-center">
           <div
@@ -50,9 +49,9 @@ function Carrossel() {
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div className={`col-lg-6 col-md-6`}>
+                <div className="col-lg-4 col-md-6">
                   <CarrosselItem
-                  cor={styles.amarelo}
+                    cor={styles.amarelo}
                     titulo="Avaliação diagnóstica"
                     texto="É normal ter duvidas sobre o desenvolvimento do seu filho e nós podemos te ajudar. longa experiência."
                     srcFundo={imgContainerFeatureAmarelo}
@@ -60,9 +59,9 @@ function Carrossel() {
                 </div>
               </div>
               <div class="carousel-item">
-                <div className={`col-lg-6 col-md-6`}>
+                <div className="col-lg-4 col-md-6">
                   <CarrosselItem
-                  cor={styles.azul}
+                    cor={styles.azul}
                     titulo="Para profissionais"
                     texto="Ajudamos profissionais, clínicas e organizações que trabalham com crianças e/ou pais/famílias a terem as habilidades em identificar, avaliar e intervir crianças com sinais de alerta ou diagnóstico do transtorno do espectro do autismo"
                     srcFundo={imgContainerFeatureAzul}
@@ -70,9 +69,9 @@ function Carrossel() {
                 </div>
               </div>
               <div class="carousel-item">
-                <div className={`col-lg-3 col-md-6`}>
+                <div className="col-lg-4 col-md-6">
                   <CarrosselItem
-                  cor={styles.vermelho}
+                    cor={styles.vermelho}
                     titulo="Intervenção"
                     texto="Fazemos avaliação e diagnóstico com protocolos nacionais e internacionais, com profissionais com diferentes formações e longa experiência."
                     srcFundo={imgContainerFeatureVermelho}
@@ -107,8 +106,6 @@ function Carrossel() {
           </div>
         </div>
       </div> */}
-
-
     </div>
   );
 }

@@ -42,6 +42,7 @@ function CardsEquipe() {
           </div>
         </div>
       </div>
+
     </section>
   );
 }

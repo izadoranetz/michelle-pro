@@ -5,7 +5,7 @@ import Seo from '../components/Seo';
 import HeroSection from '../components/HeroSection';
 import fotoHero from '../assets/images/nossa-equipe-hero.png';
 import CardsEquipe from '../components/CardsEquipe';
-
+import MembrosEquipe from '../components/MembrosEquipe';
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +17,7 @@ const IndexPage = () => (
       altImagem="Uma criança usando máscara sobre os olhos"
     />
     <CardsEquipe />
+    <MembrosEquipe />
   </Layout>
 );
 
