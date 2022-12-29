@@ -1,108 +1,135 @@
 @import "../global.scss";
 
-
-
-.tituloContainer {
-    height: 290px;
-    padding: 2rem 0;
+.container {
     position: relative;
 
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    z-index: 1;
-
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-
-    .titulo {
-        position: absolute;
-
-        width: fit-content;
-
-        top: 80px;
-        // left: 80px;
-
-
-        font-family: 'Calibri', sans-serif;
-        font-weight: 800;
-        font-size: 2.6rem;
-
-        text-align: center;
-    }
-
-}
-
-.fundoBranco {
-    background-image: url('../assets/images/nuvem.png');
-    color: $azul;
-    width: 600px;
-}
-
-.fundoBrancoMenor {
-    background-image: url('../assets/images/nuvem-menor.png');
-    color: $azul;
-    width: 500px;
-}
-
-.fundoBrancoFlor {
-    background-image: url('../assets/images/features-fundo.png');
-    color: $azul;
-    width: 700px;
-}
-
-.fundoAzul {
-    background-image: url('../assets/images/nuvem-azul.png');
-    color: $branco;
-    width: 600px;
-
-}
-
-@media screen and (max-width: 768px) {
-
     .tituloContainer {
-        width: 100%;
-        height: auto;
+        height: 290px;
+        padding: 2rem 0;
         position: relative;
-        text-align: center;
-        
-        border-radius: 8px;
 
-        padding: 8px 4px;
-        margin: 12px 0;
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        z-index: 1;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .conteudo {
+            position: absolute;
+            width: 100%;
+            top: 75px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
 
         .titulo {
-            position: relative;
-            top: auto;
-            left: auto;
-            
-            line-height: normal;  
+            font-family: 'Calibri', sans-serif;
+            font-weight: 800;
+            font-size: 2.6rem;
+
+            text-align: center;
+            margin-bottom: 0;
         }
+
+        .subtitulo {
+            font-family: 'Calibri', sans-serif;
+            font-size: 1.4rem;
+
+            text-align: center;
+            margin-top: -15px;
+        }
+
     }
 
     .fundoBranco {
-        background-image: none;
-        // background-color: $branco;
-        color: $cinza;
+        background-image: url('../assets/images/nuvem.png');
+        color: $azul;
+        width: 600px;
     }
 
     .fundoBrancoMenor {
-        background-image: none;
-        // background-color: $branco;
-        color: $cinza;
+        background-image: url('../assets/images/nuvem-menor.png');
+        color: $azul;
+        width: 500px;
     }
-    
+
     .fundoBrancoFlor {
-        background-image: none;
-        // background-color: $branco;
-        color: $cinza;
+        background-image: url('../assets/images/features-fundo.png');
+        color: $azul;
+        width: 700px;
     }
 
     .fundoAzul {
-        background-image: none;
-        // background-color: $azul;
-        color: $cinza;
+        background-image: url('../assets/images/nuvem-azul.png');
+        color: $branco;
+        width: 600px;
+
     }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+
+        .tituloContainer {
+            width: 100%;
+            height: fit-content;
+            position: relative;
+
+            text-align: center;
+
+            border-radius: 8px;
+
+            .conteudo {
+                position: relative;
+                top: 0;
+
+                .titulo {
+                    position: relative;
+                    top: auto;
+                    left: auto;
+
+                    line-height: normal;
+                }
+            }
+        }
+
+
+
+        .fundoBranco {
+            background-image: none;
+            // background-color: $branco;
+            color: $cinza;
+            display: none;
+        }
+
+        .fundoBrancoMenor {
+            background-image: none;
+            // background-color: $branco;
+            color: $cinza;
+        }
+
+        .fundoBrancoFlor {
+            background-image: none;
+            // background-color: $branco;
+            color: $cinza;
+        }
+
+        .fundoAzul {
+            background-image: none;
+            // background-color: $azul;
+            color: $cinza;
+        }
+    }
+
+
 }

@@ -4,16 +4,38 @@ import Layout from '../components/Layout';
 import Seo from '../components/Seo';
 import HeroSection from '../components/HeroSection';
 import fotoHero from '../assets/images/sobre-nos-hero.png';
+import TituloNuvem from '../components/TituloNuvem';
+import * as styles from '../components/herosection.module.scss';
 
 const IndexPage = () => (
   <Layout>
-    <HeroSection
-      primParteTitulo="Sobre"
-      segParteTitulo="Nós"
-      subtitulo="Diretora"
-      urlImagem={fotoHero}
-      altImagem="Uma criança usando máscara sobre os olhos"
-    />
+    <section className={styles.heroSection}>
+      <div className="container">
+        <div className="row align-items-center position-relative">
+          <div className="col-lg-6 col-sm-12">
+            <div className="container">
+              <h1
+                className={`col-lg-6 col-md-12 col-sm-12 ${styles.tituloPrincipal}`}
+              >
+                <span>Diretora</span>
+              </h1>
+              <TituloNuvem titulo="Michelle Procópio" subtitulo="Fonoaudióloga e Psicóloga" cor="fundoAzul" />
+            </div>
+          </div>
+          <div className="col-lg-6 col-sm-12">
+            <div className={styles.heroImagens}>
+              <div className="row d-flex justify-content-center">
+                <img
+                  className={styles.imgCrianca}
+                  src={fotoHero}
+                  alt="Diretora Michelle Procópio"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </Layout>
 );
 
