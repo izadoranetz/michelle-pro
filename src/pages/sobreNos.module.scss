@@ -1,0 +1,71 @@
+@import "../global.scss";
+
+.heroSection {
+    margin-top: 1.2rem;
+    background: url('../assets/images/fundo-linhavermelha.png');
+
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    .tituloPrincipal {
+        font-family: "Calibri", sans-serif;
+        color: $vermelho;
+        font-size: 4.5rem;
+        font-weight: 800;
+
+        span {
+            background-color: $amarelo-forte;
+            line-height: 1.5;
+            padding: 4px 4px;
+        }
+
+    }
+
+    .subtitulo {
+        font-size: 1.2rem;
+        background-color: $amarelo-claro;
+    }
+
+    .heroImagens {
+
+        .imgCrianca {
+            position: relative;
+            width: 80%;
+        }
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .heroSection {
+
+        background-position: bottom right;
+        background-repeat: no-repeat;
+
+        background: none;
+
+        .tituloPrincipal {
+            font-weight: 800;
+            line-height: 1.2;
+            text-align: center;
+
+        }
+
+        .imgCrianca {
+            width: 50%;
+        }
+        
+        .subtitulo {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+    }
+
+
+}

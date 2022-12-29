@@ -2,10 +2,9 @@ import * as React from 'react';
 // import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Seo from '../components/Seo';
-import HeroSection from '../components/HeroSection';
 import fotoHero from '../assets/images/sobre-nos-hero.png';
 import TituloNuvem from '../components/TituloNuvem';
-import * as styles from '../components/herosection.module.scss';
+import * as styles from './sobreNos.module.scss';
 
 const IndexPage = () => (
   <Layout>
@@ -19,7 +18,11 @@ const IndexPage = () => (
               >
                 <span>Diretora</span>
               </h1>
-              <TituloNuvem titulo="Michelle Procópio" subtitulo="Fonoaudióloga e Psicóloga" cor="fundoAzul" />
+              <TituloNuvem
+                titulo="Michelle Procópio"
+                subtitulo="Fonoaudióloga e Psicóloga"
+                cor="fundoAzul"
+              />
             </div>
           </div>
           <div className="col-lg-6 col-sm-12">
@@ -32,6 +35,18 @@ const IndexPage = () => (
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row align-items-center position-relative">
+          <div className="col-lg-6 col-sm-12">
+            (imagem)
+            
+          </div>
+          <div className="col-lg-6 col-sm-12">
+        
+            texto
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ import motricidade from '../assets/images/icon-motricidade.png';
 import comunicacao from '../assets/images/icon-comunicacao.png';
 import escolar from '../assets/images/icon-escolar.png';
 import gestao from '../assets/images/icon-gestao.png';
-import bolinhasAzuis from '../assets/images/bolinhas-azuis.svg';
+import bolinhasAzuis from '../assets/images/bolinhas-azuis.png';
 
 
 function OutrosServicos() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import * as styles from './Box.module.scss';
 import arcoIris from '../assets/images/arco-iris2.png';
-import bolinhasVermelhas from '../assets/images/bolinhas-vermelhas.svg';
+import bolinhasVermelhas from '../assets/images/bolinhas-vermelhas.png';
 
 function Box() {
   return (
