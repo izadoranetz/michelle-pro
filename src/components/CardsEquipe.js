@@ -10,7 +10,7 @@ function CardsEquipe() {
     <section className={styles.sectionCardsEquipe}>
       <div className="container">
         <div className="row">
-          <div className={`col-lg-4 order-sm-1 order-lg-2`}>
+          <div className="col-lg-4 order-sm-1 order-lg-2 pb-lg-4 pb-2">
             <CardColorido
               icone={um}
               titulo="Supervisor geral"
@@ -19,7 +19,7 @@ function CardsEquipe() {
               texto="Terapeuta ESDM formado pelo Mind Institute. Irá realizar as avaliações, desenvolver os objetivos a serem trabalhados e monitorar os supervisores dos casos e os assistentes terapêuticos. É de responsabilidade a observação dos dados de progresso e as decisões de alterações a serem feitas."
             />
           </div>
-          <div className="col-lg-4 order-sm-2 order-lg-1">
+          <div className="col-lg-4 order-sm-2 order-lg-1 pb-lg-2 pb-2 pt-4">
             <CardColorido
               icone={dois}
               titulo="Supervisor do caso"
@@ -29,7 +29,7 @@ function CardsEquipe() {
 "
             />
           </div>
-          <div className="col-lg-4 order-sm-3 order-lg-3">
+          <div className="col-lg-4 order-sm-3 order-lg-3 pb-lg-2 pb-2 pt-4">
             <CardColorido
               icone={tres}
               titulo="Assistente terapêutico"

@@ -10,7 +10,7 @@ function Carrossel() {
     <div className="container py-5">
       <div className="container-fluid">
         <div className="row flex-lg-row justify-content-lg-between align-items-center flex-sm-column p-sm-0">
-          <div className={`col-lg-4 col-md-6`}>
+          <div className="col-lg-4 col-md-6">
             <CarrosselItem
               cor={styles.amarelo}
               titulo="Avaliação diagnóstica"
@@ -19,7 +19,7 @@ function Carrossel() {
             />
           </div>
 
-          <div className={`col-lg-4 col-md-6`}>
+          <div className="col-lg-4 col-md-6">
             <CarrosselItem
               cor={styles.azul}
               titulo="Para profissionais"
@@ -28,7 +28,7 @@ function Carrossel() {
             />
           </div>
 
-          <div className={`col-lg-4 col-md-6`}>
+          <div className="col-lg-4 col-md-6">
             <CarrosselItem
               cor={styles.vermelho}
               titulo="Intervenção"

@@ -1,13 +1,14 @@
 @import "../global.scss";
 
-.heroSection {
+.mainSection {
     margin-top: 1.2rem;
+    margin-bottom: 4rem;
     background: url('../assets/images/fundo-linhavermelha.png');
 
     background-position: top left;
     background-repeat: no-repeat;
-    background-size: contain;
-    
+    background-size: auto;
+
     .tituloPrincipal {
         font-family: "Calibri", sans-serif;
         color: $vermelho;
@@ -29,11 +30,61 @@
 
     .heroImagens {
 
-        .imgCrianca {
+        .imgHero {
             position: relative;
             width: 80%;
         }
 
+    }
+
+
+    .containerConhecaEquipe {
+        background: url('../assets/images/linha-vermelha-maior.png');
+
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        display: flex;
+        flex-direction: column;
+
+
+
+        .fotoConhecaEquipe {
+            width: 70%;
+        }
+
+        .contentConhecaEquipe {
+
+            margin-top: 6rem;
+
+            .botao {
+                background-color: $amarelo-forte;
+                width: fit-content;
+
+                color: $vermelho;
+                font-family: 'Gilroy Extrabold', sans-serif;
+                font-size: 1.5rem;
+                text-decoration: none;
+                line-height: 1.2;
+                padding: 0.8rem 2rem;
+                border-radius: 32px;
+                border: 0;
+                text-transform: uppercase;
+
+                margin-top: 1.5rem;
+                display: inline-block;
+
+            }
+
+        }
+
+
+    }
+
+    .florVermelha {
+        position: absolute;
+        right: 150px;
     }
 
 }
@@ -42,12 +93,12 @@
 
 @media screen and (max-width: 768px) {
 
-    .heroSection {
+    .mainSection {
+        background: none;
 
         background-position: bottom right;
         background-repeat: no-repeat;
 
-        background: none;
 
         .tituloPrincipal {
             font-weight: 800;
@@ -59,13 +110,35 @@
         .imgCrianca {
             width: 50%;
         }
-        
+
         .subtitulo {
             font-size: 1.5rem;
             text-align: center;
         }
 
+
+        .containerConhecaEquipe {
+
+            background: none;
+            margin-top: 1rem;
+
+
+            .fotoConhecaEquipe {
+                margin-top: 2rem;
+
+            }
+
+            .contentConhecaEquipe {
+                margin-top: 0;
+            }
+        }
+
+        .florVermelha {
+            position: absolute;
+            right: 0px;
+        }
     }
+
 
 
 }
