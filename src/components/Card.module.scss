@@ -1,5 +1,6 @@
 @import "../global.scss";
 
+
 .cardContainer {
     padding: 2rem;
 
@@ -11,6 +12,7 @@
     height: 100%;
 
     .tituloCard {
+
         font-family: 'Calibri', sans-serif;
         font-size: 2rem;
         font-weight: bold;
@@ -20,7 +22,10 @@
         background-color: $branco;
         box-shadow: 3px 3px 10px #c6c4c4;
         border-radius: 32px;
+
     }
+
+
 
     .textoCard {
         font-family: 'Gilroy', sans-serif;
@@ -42,7 +47,6 @@
 .vermelho {
     color: $vermelho;
 }
-
 
 @media screen and (max-width: 768px) {
     .cardContainer {

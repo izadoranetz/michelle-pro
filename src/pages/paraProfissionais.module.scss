@@ -1,0 +1,25 @@
+@import "../global.scss";
+
+.mainProfissionais {
+    margin: 2rem 3rem;
+
+    background: url('../assets/images/fundo-contato.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    .tituloPrincipal {
+        font-family: "Calibri", sans-serif;
+        color: $vermelho;
+        font-size: 4.5rem;
+        font-weight: 800;
+        text-align: center;
+
+        span {
+            background-color: $amarelo-forte;
+            line-height: 1.5;
+            padding: 4px 4px;
+        }
+    }
+
+}
