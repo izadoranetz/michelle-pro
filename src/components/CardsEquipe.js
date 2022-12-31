@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import * as styles from './CardsEquipe.module.scss';
 import dois from '../assets/images/numero-dois.png';
 import um from '../assets/images/numero-um.png';

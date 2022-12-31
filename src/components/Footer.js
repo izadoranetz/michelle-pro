@@ -14,13 +14,13 @@ function Footer() {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="#">Sobre Nós</a>
+                <a href="/sobre-nos">Sobre Nós</a>
               </li>
               <li>
-                <a href="#">Contato</a>
+                <a href="/contato">Contato</a>
               </li>
               <li>
-                <a href="#">Trabalhe conosco</a>
+                <a href="/para-profissionais">Trabalhe conosco</a>
               </li>
             </ul>
           </div>
@@ -55,7 +55,7 @@ function Footer() {
                   className={`${styles.iconesFooter} shadow-sm`}
                 />
               </li>
-              <li><a href="https://www.facebook.com/dramichelleprocopiovillar/" target="_blank">/Michelle Procópio</a></li>
+              <li><a href="https://www.facebook.com/dramichelleprocopiovillar/" target="_blank" rel="noreferrer">/Michelle Procópio</a></li>
               <li>
                 <InstagramLogo
                   size={32}
@@ -63,7 +63,7 @@ function Footer() {
                   className={`${styles.iconesFooter} shadow-sm`}
                 />
               </li>
-              <li><a href="https://www.instagram.com/michelleprocopio/" target="_blank">@michelleprocopio</a></li>
+              <li><a href="https://www.instagram.com/michelleprocopio/" target="_blank" rel="noreferrer">@michelleprocopio</a></li>
             </ul>
           </div>
         </div>

@@ -7,7 +7,7 @@ function Box() {
   return (
     <section className={`container ${styles.sectionBox}`}>
       <div className={`row ${styles.containerSaiberMais}`}>
-        <img src={arcoIris} className={styles.arcoIris} />
+        <img src={arcoIris} className={styles.arcoIris} alt=" " />
         <div className={`col-lg-6 ${styles.contentSaberMais}`}>
           <p>
             Fornecemos serviços de intervenção precoce de forma individualizada
@@ -19,7 +19,7 @@ function Box() {
           Saber Mais+
         </a>
       </div>
-      <img src={bolinhasVermelhas} className={styles.bolinhasVermelhas} />
+      <img src={bolinhasVermelhas} className={styles.bolinhasVermelhas} alt=" " />
     </section>
   );
 }

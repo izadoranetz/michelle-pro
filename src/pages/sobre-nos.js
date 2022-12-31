@@ -21,21 +21,23 @@ const IndexPage = () => (
               >
                 <span>Diretora</span>
               </h1>
-              <TituloNuvem
+              <a href="/michelle"> <TituloNuvem
                 titulo="Michelle Procópio"
                 subtitulo="Fonoaudióloga e Psicóloga"
                 cor="fundoAzul"
-              />
+              /></a>
             </div>
           </div>
           <div className="col-lg-6 col-sm-12">
             <div className={styles.heroImagens}>
               <div className="row d-flex justify-content-center">
-                <img
-                  className={styles.imgHero}
-                  src={fotoHero}
-                  alt="Diretora Michelle Procópio"
-                />
+                <a href="/michelle">
+                  <img
+                    className={styles.imgHero}
+                    src={fotoHero}
+                    alt="Diretora Michelle Procópio"
+                  />
+                </a>
               </div>
             </div>
           </div>
