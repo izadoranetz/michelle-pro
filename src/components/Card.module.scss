@@ -46,9 +46,14 @@
 
 @media screen and (max-width: 768px) {
     .cardContainer {
+
+        .tituloCard {
+            text-align: center;
+        }
     
         .textoCard {
             padding: 1.4rem;
+            
         }
     }
 }

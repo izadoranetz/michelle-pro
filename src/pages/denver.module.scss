@@ -1,15 +1,49 @@
-.arcoIris {
-    position: absolute;
-    width: 150px;
+.accordion {
 
-    right: 230px;
+    .arcoIris {
+        position: absolute;
+        width: 150px;
+        right: 230px;
+        visibility: visible;
+    }
+
+    .bolinhasVermelhas {
+        position: absolute;
+        left: 230px;
+        bottom: 20px;
+        width: 150px;
+        visibility: visible;
+    }
 }
 
 
 @media screen and (max-width: 768px) {
-    .arcoIris {
-        width: 120px;
-        right: 20px;
+    .accordion {
+
+        .arcoIris {
+            width: 120px;
+            right: 20px;
+        }
+
+        .bolinhasVermelhas {
+            left: 20px;
+            bottom: 0px;
+            width: 120px;
+
+        }
     }
+
+}
+
+@media (min-width: 1700px) {
+    .accordion {
+
+        .arcoIris {
+            visibility: hidden;
+        }
     
+        .bolinhasVermelhas {
+            visibility: hidden;
+        }
+    }
 }

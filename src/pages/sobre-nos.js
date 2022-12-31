@@ -79,21 +79,21 @@ const IndexPage = () => (
       </div>
       <div className="container my-5">
         <div className="row">
-          <div className="col-lg-4 col-sm-6 mb-4">
+          <div className="col-lg-4 col-sm-12 col-md-12 mb-4">
             <Card
               titulo="Missão"
               texto="Oferecer apoio às pessoas com autismo e suas famílias para melhorar sua qualidade de vida e promover sua inclusão nesses ambientes. Trabalhar de forma integrada e coordenada com o os demais profissionais que atendem a criança, com a escola e a família para alcançar melhores resultados."
               cor="azul"
             />
           </div>
-          <div className="col-lg-4 col-sm-6 mb-4">
+          <div className="col-lg-4 col-sm-12 col-md-12 mb-4">
             <Card
               titulo="Visão"
               texto="Ser a entidade de referência no cuidado de pessoas com autismo e suas famílias, bem como na defesa de seus direitos. Promover a inclusão de pessoas com autismo em todas as áreas para um mundo onde todos os indivíduos com autismo atingem seu potencial máximo."
               cor="vermelho"
             />
           </div>
-          <div className="col-lg-4 col-sm-6 mb-4">
+          <div className="col-lg-4 col-sm-12 col-md-12 mb-4">
             <Card
               titulo="Valores"
               texto="Oferecer intervenções terapêuticas atuais baseadas em evidência, pensando sempre na individualidade de cada criança e sua família. Nossos valores são de inclusão, família, compromisso, envolvimento eficiência

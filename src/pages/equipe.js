@@ -7,7 +7,7 @@ import fotoHero from '../assets/images/nossa-equipe-hero.png';
 import CardsEquipe from '../components/CardsEquipe';
 import MembrosEquipe from '../components/MembrosEquipe';
 
-const IndexPage = () => (
+const Equipe = () => (
   <Layout>
     <HeroSection
       primParteTitulo="Nossa"
@@ -23,4 +23,4 @@ const IndexPage = () => (
 
 export const Head = () => <Seo title="Nossa equipe" />;
 
-export default IndexPage;
+export default Equipe;

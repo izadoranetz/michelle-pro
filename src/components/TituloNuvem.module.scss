@@ -1,5 +1,9 @@
 @import "../global.scss";
 
+a:link, a:visited {
+    text-decoration: none;
+}
+
 .container {
     position: relative;
 
@@ -89,6 +93,7 @@
 
             border-radius: 8px;
 
+
             .conteudo {
                 position: relative;
                 top: 0;
@@ -97,7 +102,7 @@
                     position: relative;
                     top: auto;
                     left: auto;
-
+                    text-decoration: none;
                     line-height: normal;
                 }
             }

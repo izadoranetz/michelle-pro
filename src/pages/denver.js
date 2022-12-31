@@ -12,6 +12,7 @@ import BoxPqMetodoDenver from '../components/BoxPqMetodoDenver';
 import IntervencaoAjuda from '../components/IntervencaoAjuda';
 import Accordion from '../components/Accordion';
 import arcoIris from '../assets/images/arco-iris2.png';
+import bolinhasVermelhas from '../assets/images/bolinhas-vermelhas-preenchidas.png';
 import * as styles from './denver.module.scss';
 
 const itens = [
@@ -65,7 +66,7 @@ const itens = [
   },
 ];
 
-const IndexPage = () => (
+const Denver = () => (
   <Layout>
     <HeroSection
       primParteTitulo="Modelo"
@@ -82,13 +83,14 @@ const IndexPage = () => (
     />
     <BoxPqMetodoDenver />
     <IntervencaoAjuda />
-    <div className="container-fluid">
-      <img src={arcoIris} className={styles.arcoIris} />
+    <div className={`container-fluid ${styles.accordion}`}>
+      <img src={arcoIris} className={styles.arcoIris} alt=" " />
       <Accordion itens={itens} />
+      <img src={bolinhasVermelhas} className={styles.bolinhasVermelhas} alt=" " />
     </div>
   </Layout>
 );
 
 export const Head = () => <Seo title="Modelo Denver" />;
 
-export default IndexPage;
+export default Denver;

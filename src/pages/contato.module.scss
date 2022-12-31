@@ -1,0 +1,97 @@
+@import "../global.scss";
+
+.mainContatos {
+    margin: 2rem 3rem;
+
+    background: url('../assets/images/fundo-contato.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    .tituloPrincipal {
+        font-family: "Calibri", sans-serif;
+        color: $vermelho;
+        font-size: 4.5rem;
+        font-weight: 800;
+        text-align: center;
+
+        span {
+            background-color: $amarelo-forte;
+            line-height: 1.5;
+            padding: 4px 4px;
+        }
+    }
+
+    .formularioContainer {
+        margin: 2rem 4rem;
+        padding: 1rem;
+
+        background-color: $branco;
+        border-radius: 32px;
+        box-shadow: 3px 3px 10px #c6c4c4;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+
+
+        .formularioContent {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+
+            ::placeholder,
+            input,
+            textarea {
+                font-size: 1.6rem;
+                color: $vermelho;
+                font-family: 'Calibri', sans-serif;
+                font-weight: bold;
+            }
+
+            input,
+            textarea {
+                background-color: $branco;
+                border-radius: 32px;
+                box-shadow: 3px 3px 10px #c6c4c4;
+                border: 0;
+
+                padding: 1rem;
+                margin: 1rem 0;
+                width: 100%;
+            }
+
+            input:focus, textarea:focus {
+                background-color: $amarelo-claro;
+                outline: none;
+            }
+
+            textarea {
+                resize: none;
+            }
+
+            .formularioEnviar {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                input[type="submit"] {
+                    background-color: $amarelo-forte;
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .mainContatos {
+        margin: 1rem;
+
+        .formularioContainer {
+            margin: 1rem 0;
+        }
+    }
+}

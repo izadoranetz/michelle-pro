@@ -8,7 +8,7 @@ import BoxServicos from '../components/BoxServicos';
 import ComoFunciona from '../components/ComoFunciona';
 import Carrossel from '../components/Carrossel';
 
-const IndexPage = () => (
+const Servicos = () => (
   <Layout>
     <HeroSection
       primParteTitulo="Nossos"
@@ -25,4 +25,4 @@ const IndexPage = () => (
 
 export const Head = () => <Seo title="Serviços" />;
 
-export default IndexPage;
+export default Servicos;
