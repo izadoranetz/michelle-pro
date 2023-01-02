@@ -26,14 +26,112 @@
     }
 }
 
+.secaoQuote {
+    background: url('../assets/images/linha-amarelo-fundo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    .containerQuote {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 0 1rem;
+
+        .contentQuote {
+            width: fit-content;
+            padding: 2rem;
+
+            color: $branco;
+            font-family: 'Calibri', sans-serif;
+            font-size: 2rem;
+            line-height: 1.2;
+            font-weight: bold;
+            text-align: center;
+
+            background-color: $azul;
+            border-radius: 32px;
+            box-shadow: 3px 3px 10px #c6c4c4;
+        }
+    }
+}
+
+.secaoCurriculo {
+    position: relative;
+
+    .estrelas {
+        position: absolute;
+        top: -20px;
+        right: -20px;
+    }
+
+    .flor {
+        position: absolute;
+        bottom: -50px;
+        left: 0;
+
+        width: 140px;
+    }
+
+    .containerCurriculo {
+
+        padding: 2rem;
+
+        background-color: $branco;
+        border-radius: 32px;
+        box-shadow: 3px 3px 10px #c6c4c4;
+
+        width: 100%;
+
+        .titulo {
+            font-family: 'Calibri', sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+            color: $vermelho;
+
+            padding: 1.4rem;
+
+            background-color: $branco;
+            box-shadow: 3px 3px 10px #c6c4c4;
+            border-radius: 32px;
+        }
+
+        .texto {
+            padding: 2rem;
+
+            font-size: 1.2rem;
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+
+                li {
+                    padding: 1rem;
+                    border-bottom: solid 2px $azul;
+                }
+
+            }
+        }
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .secaoPerfil {
         display: flex;
-        justify-items: center;
+        flex-direction: column;
         align-items: center;
 
+        background: url('../assets/images/fundo-como-funciona.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom center;
+
         img {
-            display: none;
+            width: 70%;
+            margin: 0 auto;
         }
 
         .containerPerfil {
@@ -42,12 +140,45 @@
             background-color: $vermelho;
             border-radius: 32px;
 
-
             img {
                 display: none;
             }
 
-            .conteudoPerfil { position: relative;}
+            .conteudoPerfil {
+                position: relative;
+            }
+        }
+    }
+
+    .secaoCurriculo {
+
+        .estrelas {
+            right: 0px;
+        }
+    
+        .flor {
+            position: absolute;
+            bottom: -80px;
+            left: 0;
+    
+            width: 100px;
+        }
+
+        .containerCurriculo {
+
+            padding: 1rem;
+
+            .texto {
+                padding: 0.5rem;
+
+                ul {
+                    padding: 0;
+
+                    li {
+                        padding: 0.5rem;
+                    }
+                }
+            }
         }
     }
 }
