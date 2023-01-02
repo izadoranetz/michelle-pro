@@ -1,0 +1,53 @@
+@import '../global.scss';
+
+.secaoPerfil {
+
+    .containerPerfil {
+        display: inline-block;
+        position: relative;
+
+        .conteudoPerfil {
+            color: $branco;
+            font-family: 'Gilroy Light', sans-serif;
+
+
+            width: fit-content;
+            padding: 10%;
+
+            position: absolute;
+            top: 6%;
+
+            p {
+                background-color: $vermelho;
+            }
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .secaoPerfil {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+
+        img {
+            display: none;
+        }
+
+        .containerPerfil {
+            margin: 2rem;
+
+            background-color: $vermelho;
+            border-radius: 32px;
+
+
+            img {
+                display: none;
+            }
+
+            .conteudoPerfil { position: relative;}
+        }
+    }
+}
