@@ -26,7 +26,7 @@ function Layout({ children }) {
       <Header />
       <main>{children}</main>
       <Footer />
-      <a href="https://wa.me/556198463608">
+      <a href="https://wa.me/556184623608">
         <img src={whatsappLogo} className={styles.floating} />
       </a>
     </div>
