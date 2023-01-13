@@ -1,5 +1,11 @@
-import React from 'react';
-import * as styles from './MembrosEquipe.module.scss';
+import React from "react";
+import * as styles from "./MembrosEquipe.module.scss";
+
+import imgAmanda from "../assets/images/equipe/amanda.jpeg";
+import imgCamila from "../assets/images/equipe/camila_zacarias.jpg";
+import imgGabriela from "../assets/images/equipe/gabriela_lima.jpeg";
+import imgKamila from "../assets/images/equipe/kamila_guimaraes.jpeg";
+import imgMilena from "../assets/images/equipe/milena_nascimento.jpg";
 
 function CardEquipe() {
   return (
@@ -45,12 +51,29 @@ function CardEquipe() {
                 <div
                   className={`${styles.identificacaoPessoa} ${styles.flexCenter}`}
                 >
-                  <div className={styles.fotoPessoa}></div>
+                  <div className={styles.fotoPessoa}>
+                    <img className={styles.fotoPessoa} src={imgAmanda} />
+                  </div>
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
-                    Michelle Procópio
+                    Amanda Santos
+                  </span>
+                  <span className={styles.ocupacaoPessoa}>Psicóloga</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 mb-2">
+              <div className={styles.containerPessoa}>
+                <div
+                  className={`${styles.identificacaoPessoa} ${styles.flexCenter}`}
+                >
+                  <div className={styles.fotoPessoa}>
+                    <img className={styles.fotoPessoa} src={imgCamila} />
+                  </div>
+                  <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
+                    Kamila Guimarães
                   </span>
                   <span className={styles.ocupacaoPessoa}>
-                    Fonoaudióloga e Psicóloga
+                    Fonoaudióloga infantil
                   </span>
                 </div>
               </div>
@@ -60,12 +83,29 @@ function CardEquipe() {
                 <div
                   className={`${styles.identificacaoPessoa} ${styles.flexCenter}`}
                 >
-                  <div className={styles.fotoPessoa}></div>
+                  <div className={styles.fotoPessoa}>
+                    <img className={styles.fotoPessoa} src={imgGabriela} />
+                  </div>
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
-                    Michelle Procópio
+                    Camila Zacarias
+                  </span>
+                  <span className={styles.ocupacaoPessoa}>Psicóloga</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 mb-2">
+              <div className={styles.containerPessoa}>
+                <div
+                  className={`${styles.identificacaoPessoa} ${styles.flexCenter}`}
+                >
+                  <div className={styles.fotoPessoa}>
+                    <img className={styles.fotoPessoa} src={imgKamila} />
+                  </div>
+                  <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
+                    Milena Nascimento
                   </span>
                   <span className={styles.ocupacaoPessoa}>
-                    Fonoaudióloga e Psicóloga
+                    Educadora Física
                   </span>
                 </div>
               </div>
@@ -75,58 +115,13 @@ function CardEquipe() {
                 <div
                   className={`${styles.identificacaoPessoa} ${styles.flexCenter}`}
                 >
-                  <div className={styles.fotoPessoa}></div>
+                  <div className={styles.fotoPessoa}>
+                    <img className={styles.fotoPessoa} src={imgMilena} />
+                  </div>
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
-                    Michelle Procópio
+                    Gabriella Lima
                   </span>
-                  <span className={styles.ocupacaoPessoa}>
-                    Fonoaudióloga e Psicóloga
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 mb-2">
-              <div className={styles.containerPessoa}>
-                <div
-                  className={`${styles.identificacaoPessoa} ${styles.flexCenter}`}
-                >
-                  <div className={styles.fotoPessoa}></div>
-                  <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
-                    Michelle Procópio
-                  </span>
-                  <span className={styles.ocupacaoPessoa}>
-                    Fonoaudióloga e Psicóloga
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 mb-2">
-              <div className={styles.containerPessoa}>
-                <div
-                  className={`${styles.identificacaoPessoa} ${styles.flexCenter}`}
-                >
-                  <div className={styles.fotoPessoa}></div>
-                  <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
-                    Michelle Procópio
-                  </span>
-                  <span className={styles.ocupacaoPessoa}>
-                    Fonoaudióloga e Psicóloga
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 mb-2">
-              <div className={styles.containerPessoa}>
-                <div
-                  className={`${styles.identificacaoPessoa} ${styles.flexCenter}`}
-                >
-                  <div className={styles.fotoPessoa}></div>
-                  <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
-                    Michelle Procópio
-                  </span>
-                  <span className={styles.ocupacaoPessoa}>
-                    Fonoaudióloga e Psicóloga
-                  </span>
+                  <span className={styles.ocupacaoPessoa}>Psicóloga</span>
                 </div>
               </div>
             </div>
