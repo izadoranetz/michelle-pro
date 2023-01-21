@@ -24,7 +24,7 @@ function Layout({ children }) {
   const [mostrarScrollToTop, setMostrarScrollToTop] = React.useState(false);
 
   const onMostrarScroll = () => {
-    if(!document){
+    if(typeof document === 'undefined'){
       return;
     }
     const scrolled = document.documentElement.scrollTop;
@@ -36,7 +36,7 @@ function Layout({ children }) {
   };
 
 
-  if(window){
+  if(typeof window !== 'undefined'){
     window.addEventListener('scroll', onMostrarScroll);
   }
 
