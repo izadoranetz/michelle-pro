@@ -19,6 +19,7 @@ const Navbar = () => {
       <div className={`container-fluid ${styles.containerFluid}`}>
         <img
           src={logo}
+          style={{width: 250}}
           className={`navbar-brand ${styles.navbarCinza}`}
           alt="Michelle Procópio"
         />
