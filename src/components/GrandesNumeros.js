@@ -1,5 +1,5 @@
-import React from 'react';
-import * as styles from './GrandesNumeros.module.scss';
+import React from "react";
+import * as styles from "./GrandesNumeros.module.scss";
 
 function GrandesNumeros() {
   return (
@@ -16,20 +16,32 @@ function GrandesNumeros() {
           </div>
           <div className="col-lg-3">
             <h3 className={styles.grandesNumeros}>+60</h3>
-            <span className={styles.numerosLegenda}>Profissionais capacitados</span>
+            <span className={styles.numerosLegenda}>
+              Profissionais capacitados
+            </span>
           </div>
           <div className="col-lg-3">
             <h3 className={styles.grandesNumeros}>+20</h3>
-            <span className={styles.numerosLegenda}>Certificados internacionais</span>
+            <span className={styles.numerosLegenda}>
+              Certificados internacionais
+            </span>
           </div>
           <div className="col-lg-3">
             <h3 className={styles.grandesNumeros}>+500</h3>
-            <span className={styles.numerosLegenda}>Coach parental realizados</span>
+            <span className={styles.numerosLegenda}>
+              Coach parental realizados
+            </span>
           </div>
         </div>
         <div className="row py-5">
           <div className="col-lg-12">
-            <a href="/" className={styles.btnAgendar}>Agendar uma consulta</a>
+            <a
+              href="https://wa.me/556184623608"
+              target="_blank"
+              className={styles.btnAgendar}
+            >
+              Agendar uma consulta
+            </a>
           </div>
         </div>
       </div>

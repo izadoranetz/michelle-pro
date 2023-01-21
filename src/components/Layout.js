@@ -6,7 +6,7 @@ import Header from "./Header";
 import "../assets/fonts/fonts.css";
 import * as styles from "./Layout.module.scss";
 
-import { WhatsappLogo } from "phosphor-react";
+import { ArrowUp } from "phosphor-react";
 
 import whatsappLogo from "../assets/images/whatsapp_logo.png";
 
@@ -21,14 +21,42 @@ function Layout({ children }) {
     }
   `);
 
+  const [mostrarScrollToTop, setMostrarScrollToTop] = React.useState(false);
+
+  const onMostrarScroll = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 300) {
+      setMostrarScrollToTop(true);
+    } else if (scrolled <= 300) {
+      setMostrarScrollToTop(false);
+    }
+  };
+
+  window.addEventListener('scroll', onMostrarScroll);
+
+
   return (
     <div className={styles.pageContainer}>
       <Header />
       <main>{children}</main>
       <Footer />
-      <a href="https://wa.me/556184623608">
-        <img src={whatsappLogo} className={styles.floating} />
-      </a>
+      <div className={styles.floating}>
+        <div className={styles.whatsApp}>
+          <a href="https://wa.me/556184623608">
+            <img src={whatsappLogo} />
+          </a>
+        </div>
+        {mostrarScrollToTop && (
+          <div
+            className={styles.scrollToTop}
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
+            <ArrowUp size={32} />
+          </div>
+        )}
+      </div>
     </div>
   );
 }

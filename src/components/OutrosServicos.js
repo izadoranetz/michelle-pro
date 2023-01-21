@@ -19,7 +19,7 @@ function OutrosServicos() {
       </div>
      
       <div className={`container ${styles.gridServicos}`}>
-        <div className="row">
+        <div className="row"z>
           <div className="col-lg-3 col-md-6  col-sm-6 ">
             <img className={styles.icones} src={pares} alt="Ícone Pares" />
             <p className={styles.iconSubtitulos}>Intervenção com pares</p>
