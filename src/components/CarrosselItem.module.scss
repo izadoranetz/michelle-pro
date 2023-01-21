@@ -1,100 +1,102 @@
 @import "../global.scss";
 
 .containerFeatures {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  transition: width .8s;
 
-    display: inline-block;
-    position: relative;
+
+  &:hover {
+    width: 450px;
+    & img {
+      width: 450px;
+    }
+    font-size: 3.5rem;
+  }
+
+  & img {
+    transition: width .2s;
+    width: 400px;
+  }
+
+  .contentFeatures {
+    padding: 4px 0;
+    color: $branco;
     text-align: center;
+    width: 100%;
+    padding: 10%;
+
+    position: absolute;
+    top: 6%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .headerFeatures {
+      padding: 1rem 1.6rem;
+      margin: 2% 6%;
+
+      width: fit-content;
+
+      text-align: center;
+      font-size: 1.6rem;
+
+      border: 1px solid rgba($color: $branco, $alpha: 0.6);
+      border-radius: 32px;
+
+      background-color: rgba($color: $branco, $alpha: 0.1);
+
+      box-shadow: 3px 3px 20px rgba($color: $cinza, $alpha: 0.4);
+    }
+
+    .textFeatures {
+      margin-top: 2%;
+      padding: 2%;
+
+      max-width: 390px;
+
+      font-size: 1.15rem;
+      text-shadow: 2px 2px 10px #808080;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .containerFeatures {
+    display: flex;
+    justify-content: center;
+    // clip-path: path("M285.04,172.06c-1.88-20.17-2.94-33.21-.03-51.45,6.98-43.69,27.99-59.04,20.16-83.43-4.91-15.29-19.78-29.82-37.49-35.12-40.97-12.26-65.6,34.27-121.03,29.13-28.34-2.63-30.85-15.62-63.7-15.63-9.89,0-42.44,.16-64.33,21.49-2.81,2.73-9.52,9.79-14.27,21.39-14.98,36.58,12.99,61.21,19.97,107.91,9.46,63.24-28.38,97-5.29,129.03,5.04,6.99,17.11,19.52,35.68,23.92,2.73,.65,9.93,2.14,23.23,1.03,30.87-2.59,34.89-14.25,60.13-17.82,27.19-3.85,52.9,5.37,59.55,7.76,14.03,5.03,17.51,9.05,30.97,11.1,6.61,1,23.91,3.41,41.29-4.54,18.35-8.4,26.52-23.66,29.54-29.31,16.09-30.07-8.26-49.71-14.39-115.45Z");
+
+    margin: 16px 0;
 
     img {
-        width: 400px;
+      width: 360px;
+      display: none;
     }
 
     .contentFeatures {
-        padding: 4px 0;
-        color: $branco;
-        text-align: center;
-        width: 100%;
+      top: 3.5%;
+      position: relative;
+      border-radius: 32px;
+      // border-radius: 80% 7% 91% 9% / 8% 88% 8% 80%;
 
-        padding: 10%;
+      .headerFeatures {
+        font-size: 1.8rem;
+        padding: 8px 24px;
+      }
 
-        position: absolute;
-        top: 6%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        .headerFeatures {
-            padding: 1rem 1.6rem;
-            margin: 2% 6%;
-
-            width: fit-content;
-
-            text-align: center;
-            font-size: 1.6rem;
-
-            border: 1px solid rgba($color: $branco, $alpha: 0.6);
-            border-radius: 32px;
-
-            background-color: rgba($color: $branco, $alpha: 0.1);
-
-            box-shadow: 3px 3px 20px rgba($color: $cinza, $alpha: 0.4);
-        }
-
-        .textFeatures {
-            margin-top: 2%;
-            padding: 2%;
-
-            max-width: 390px;
-
-            font-size: 1.15rem;
-            text-shadow: 2px 2px 10px #808080;
-
-        }
-
+      .textFeatures {
+        font-size: 1.3rem;
+        max-width: 320px;
+        font-weight: 500;
+        padding-bottom: 8px;
+      }
     }
+  }
 }
-
-
-@media screen and (max-width: 768px) {
-
-    .containerFeatures {
-        display: flex;
-        justify-content: center;
-        // clip-path: path("M285.04,172.06c-1.88-20.17-2.94-33.21-.03-51.45,6.98-43.69,27.99-59.04,20.16-83.43-4.91-15.29-19.78-29.82-37.49-35.12-40.97-12.26-65.6,34.27-121.03,29.13-28.34-2.63-30.85-15.62-63.7-15.63-9.89,0-42.44,.16-64.33,21.49-2.81,2.73-9.52,9.79-14.27,21.39-14.98,36.58,12.99,61.21,19.97,107.91,9.46,63.24-28.38,97-5.29,129.03,5.04,6.99,17.11,19.52,35.68,23.92,2.73,.65,9.93,2.14,23.23,1.03,30.87-2.59,34.89-14.25,60.13-17.82,27.19-3.85,52.9,5.37,59.55,7.76,14.03,5.03,17.51,9.05,30.97,11.1,6.61,1,23.91,3.41,41.29-4.54,18.35-8.4,26.52-23.66,29.54-29.31,16.09-30.07-8.26-49.71-14.39-115.45Z");
-
-        margin: 16px 0;
-
-
-        img {
-            width: 360px;
-            display: none;
-        }
-
-        .contentFeatures {
-            top: 3.5%;
-            position: relative;
-            border-radius: 32px;
-            // border-radius: 80% 7% 91% 9% / 8% 88% 8% 80%;
-
-            .headerFeatures {
-                font-size: 1.8rem;
-                padding: 8px 24px;
-            }
-
-            .textFeatures {
-                font-size: 1.3rem;
-                max-width: 320px;
-                font-weight: 500;
-                padding-bottom: 8px;
-                
-            }
-        }
-    }
-}
-
 
 // @media screen and (max-width: 768px) {
 
@@ -116,7 +118,6 @@
 //                 font-size: 1.4rem;
 //                 line-height: 1.6rem;
 //             }
-
 
 //         }
 

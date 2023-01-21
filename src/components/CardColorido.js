@@ -8,7 +8,7 @@ function CardColorido({ icone, titulo, cor, alt, texto, texto2 }) {
   return (
     <div
       className={`${styles.card} ${styles[cor]}`}
-      onClick={() => setIsFlipped(!isFlipped)}
+      // onClick={() => setIsFlipped(!isFlipped)}
     >
       {isFlipped ? (
         <div className={styles.cardBack}>

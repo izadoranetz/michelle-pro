@@ -9,7 +9,7 @@ function Accordion({ itens, url, labelBotao }) {
         <div className={`accordion-flush ${styles.boxAccordion}`}>
           <div className={`accordion`} id={`accordionModel`}>
             {itens.map((item, index) => (
-              <div className={`accordion-item`} key={index}>
+              <div className={`accordion-item `} key={index}>
                 <h2
                   className={`accordion-header`}
                   id={`flush-heading-${index}`}
@@ -27,7 +27,7 @@ function Accordion({ itens, url, labelBotao }) {
                 </h2>
                 <div
                   id={`collapse-${index}`}
-                  className={`accordion-collapse collapse show`}
+                  className={`accordion-collapse collapse`}
                   aria-labelledby={`flush-heading-${index}`}
                   data-bs-parent="#accordionModel"
                 >

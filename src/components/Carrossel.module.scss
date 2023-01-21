@@ -14,10 +14,14 @@
 
 .carouselResize {
     width: 600px;
-
 }
 
-
+.itemsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 500px;
+}
 .carrosselTituloContainer {
     background-image: url('../assets/images/features-fundo.png');
     background-position: top left;

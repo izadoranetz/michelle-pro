@@ -53,7 +53,7 @@ function IntervencaoAjuda() {
             <div className="col-lg-3 mb-4">
               <CardColorido
                 icone={higiene}
-                titulo="Higiêne autônoma"
+                titulo="Higiene autônoma"
                 cor="vermelho"
                 alt="Ícone Pares"
                 texto="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
