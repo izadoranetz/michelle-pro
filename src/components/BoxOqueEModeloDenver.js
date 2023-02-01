@@ -1,8 +1,8 @@
-import * as React from 'react';
-import * as styles from './BoxOqueEModeloDenver.module.scss';
-import TituloNuvem from './TituloNuvem';
-import tresEstrelas from '../assets/images/tres-estrelas.png';
-import flor from '../assets/images/flor.png';
+import * as React from "react";
+import * as styles from "./BoxOqueEModeloDenver.module.scss";
+import TituloNuvem from "./TituloNuvem";
+import tresEstrelas from "../assets/images/tres-estrelas.png";
+import flor from "../assets/images/flor.png";
 
 function BoxOqueEModeloDenver() {
   return (
@@ -26,11 +26,11 @@ function BoxOqueEModeloDenver() {
         <div className="row justify-content-between flex-wrap">
           <div className="col-lg-6 col-md-12 mb-5">
             <div className={`${styles.boxDetalhes} ${styles.boxAzul}`}>
-              <p className={styles.boxTexto}>
-                O modelo se destaca por ajudar as crianças com autismo se tornem
+              <p className={styles.boxTexto}>                
+                O modelo se destaca por ajudar crianças com autismo a se tornarem
                 participantes mais ativos no mundo. Iniciando e aceitando
                 interações com outras pessoas, pois as interações sociais estão
-                diretamente relacionadas as oportunidades de aprendizagem.
+                diretamente relacionadas as oportunidades de aprendizagem
               </p>
             </div>
           </div>
@@ -43,8 +43,6 @@ function BoxOqueEModeloDenver() {
               </p>
             </div>
           </div>
-
-      
         </div>
       </div>
     </section>

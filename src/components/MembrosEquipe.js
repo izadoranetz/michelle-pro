@@ -57,7 +57,7 @@ function CardEquipe() {
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
                     Amanda Santos
                   </span>
-                  <span className={styles.ocupacaoPessoa}>Psicóloga</span>
+                  {/* <span className={styles.ocupacaoPessoa}>Psicóloga</span> */}
                 </div>
               </div>
             </div>
@@ -70,11 +70,11 @@ function CardEquipe() {
                     <img className={styles.fotoPessoa} src={imgCamila} />
                   </div>
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
-                    Kamila Guimarães
+                    Camila Guimarães
                   </span>
-                  <span className={styles.ocupacaoPessoa}>
+                  {/* <span className={styles.ocupacaoPessoa}>
                     Fonoaudióloga infantil
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -87,9 +87,9 @@ function CardEquipe() {
                     <img className={styles.fotoPessoa} src={imgGabriela} />
                   </div>
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
-                    Camila Zacarias
+                    Gabriella Lima
                   </span>
-                  <span className={styles.ocupacaoPessoa}>Psicóloga</span>
+                  {/* <span className={styles.ocupacaoPessoa}>Psicóloga</span> */}
                 </div>
               </div>
             </div>
@@ -102,11 +102,11 @@ function CardEquipe() {
                     <img className={styles.fotoPessoa} src={imgKamila} />
                   </div>
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
-                    Milena Nascimento
+                    Camila Zacarias
                   </span>
-                  <span className={styles.ocupacaoPessoa}>
+                  {/* <span className={styles.ocupacaoPessoa}>
                     Educadora Física
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -119,9 +119,9 @@ function CardEquipe() {
                     <img className={styles.fotoPessoa} src={imgMilena} />
                   </div>
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
-                    Gabriella Lima
+                    Milena Nascimento
                   </span>
-                  <span className={styles.ocupacaoPessoa}>Psicóloga</span>
+                  {/* <span className={styles.ocupacaoPessoa}>Psicóloga</span> */}
                 </div>
               </div>
             </div>
