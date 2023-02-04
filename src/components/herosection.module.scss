@@ -11,7 +11,7 @@
     .tituloPrincipal {
         font-family: "Calibri", sans-serif;
         color: $vermelho;
-        font-size: 4.5rem;
+        font-size: 6rem;
         font-weight: 800;
 
         span {
@@ -23,7 +23,7 @@
     }
 
     .subtitulo {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         background-color: $amarelo-claro;
     }
 
@@ -31,7 +31,7 @@
 
         .imgCrianca {
             position: relative;
-            width: 80%;
+            width: 100%;
         }
 
     }

@@ -16,7 +16,7 @@ function AbordagemAbrangente() {
             </div>
             <div className={styles.abordagemContainerTexto}>
               <p className={styles.textoAbordagem}>
-                Deesenvolvido pelos PHd`s Sally Rogers e Geraldine Dawson,
+                Desenvolvido pelos PHd`s Sally Rogers e Geraldine Dawson,
                 aborda todas as competências do desenvolvimento na infância,
                 para que as crianças superem os atrasos e alcancem os melhores
                 resultados ao longo da vida.

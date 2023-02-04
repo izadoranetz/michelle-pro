@@ -13,7 +13,7 @@ function Carrossel() {
           <CarrosselItem
             cor={styles.amarelo}
             titulo="Avaliação diagnóstica"
-            texto="É normal ter duvidas sobre o desenvolvimento do seu filho e nós podemos te ajudar. longa experiência."
+            texto="É normal ter dúvidas sobre o desenvolvimento do seu filho e nós podemos te ajudar."
             srcFundo={imgContainerFeatureAmarelo}
           />
 

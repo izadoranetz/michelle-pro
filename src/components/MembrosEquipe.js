@@ -70,7 +70,7 @@ function CardEquipe() {
                     <img className={styles.fotoPessoa} src={imgCamila} />
                   </div>
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
-                    Camila Guimarães
+                    Kamila Guimarães
                   </span>
                   {/* <span className={styles.ocupacaoPessoa}>
                     Fonoaudióloga infantil

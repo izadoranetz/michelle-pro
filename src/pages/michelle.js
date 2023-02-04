@@ -8,6 +8,9 @@ import * as styles from './michelle.module.scss';
 import nuvemVermelha from '../assets/images/container-michelle.png';
 import flor from '../assets/images/flor.png';
 import estrelas from '../assets/images/estrelas-bottom.png';
+import { notMemoizedtraceSVG } from 'gatsby-plugin-sharp/trace-svg';
+
+
 
 const Michelle = () => (
   <Layout>

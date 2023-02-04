@@ -2,11 +2,14 @@
 
 .secaoPerfil {
 
-    .containerPerfil {
+    & .containerPerfil {
         display: inline-block;
         position: relative;
-
-        .conteudoPerfil {
+        & img{
+            height: 100%;
+            width: 100%;
+        }
+        & .conteudoPerfil {
             color: $branco;
             font-family: 'Gilroy Light', sans-serif;
 
@@ -17,8 +20,9 @@
             position: absolute;
             top: 6%;
 
-            p {
+           & p {
                 background-color: $vermelho;
+                font-size: 1.2rem;
             }
 
         }
@@ -134,17 +138,17 @@
             margin: 0 auto;
         }
 
-        .containerPerfil {
+        & .containerPerfil {
             margin: 2rem;
 
             background-color: $vermelho;
             border-radius: 32px;
 
-            img {
+            & img {
                 display: none;
             }
 
-            .conteudoPerfil {
+            & .conteudoPerfil {
                 position: relative;
             }
         }

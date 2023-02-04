@@ -7,7 +7,7 @@ function Accordion({ itens, url, labelBotao }) {
     <section className={styles.secaoAccordion}>
       <div className={`row flex-column align-content-center`}>
         <div className={`accordion-flush ${styles.boxAccordion}`}>
-          <div className={`accordion`} id={`accordionModel`}>
+          <div className={`accordion open`} id={`accordionModel`}>
             {itens.map((item, index) => (
               <div className={`accordion-item `} key={index}>
                 <h2
@@ -17,7 +17,7 @@ function Accordion({ itens, url, labelBotao }) {
                   <button
                     className={`accordion-button ${styles.tituloAccordion} ${styles[item.cor]}`}
                     type="button"
-                    data-bs-toggle="collapse"
+                    
                     data-bs-target={`#collapse-${index}`}
                     aria-expanded="true"
                     aria-controls={`collapse-${index}`}
@@ -27,7 +27,7 @@ function Accordion({ itens, url, labelBotao }) {
                 </h2>
                 <div
                   id={`collapse-${index}`}
-                  className={`accordion-collapse collapse`}
+                  
                   aria-labelledby={`flush-heading-${index}`}
                   data-bs-parent="#accordionModel"
                 >
