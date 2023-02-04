@@ -30,6 +30,8 @@
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
     "sass": "^1.56.0",
-    "webpack-filter-warnings-plugin": "^1.2.1"
+    "timers-browserify": "^2.0.12",
+    "webpack-filter-warnings-plugin": "^1.2.1",
+    "zlib": "^1.0.5"
   }
 }
