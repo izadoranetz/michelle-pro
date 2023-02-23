@@ -6,6 +6,7 @@ import imgCamila from "../assets/images/equipe/camila_zacarias.jpg";
 import imgGabriela from "../assets/images/equipe/gabriela_lima.jpeg";
 import imgKamila from "../assets/images/equipe/kamila_guimaraes.jpeg";
 import imgMilena from "../assets/images/equipe/milena_nascimento.jpg";
+import ModalCurriculo from "./ModalCurriculo";
 
 function CardEquipe() {
   return (
@@ -57,7 +58,30 @@ function CardEquipe() {
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
                     Amanda Santos
                   </span>
-                  {/* <span className={styles.ocupacaoPessoa}>Psicóloga</span> */}
+                  <ModalCurriculo
+                    nomeProfissional={"Amanda Santos"}
+                    id={`exampleModal-amandaSantos`}
+                  >
+                    <p>Psicóloga CRP 01/21009</p>
+                    <ul>
+                      <li>
+                        Pós graduanda em Análise do Comportamento Aplicada ao
+                        Autismo , Atrasos de desenvolvimento intelectual e de
+                        linguagem.
+                      </li>
+                      <li>Pós graduada em neuropsicologia </li>
+                      <li>
+                        Formação introdutória no modelo de intervenção precoce
+                        Denver{" "}
+                      </li>
+                      <li>Formação introdutória no JASPER </li>
+                      <li>
+                        Curso Balance: Uma abordagem profissional-parental para
+                        comportamento problema emergente.
+                      </li>
+                      <li>Vineland 3</li>
+                    </ul>
+                  </ModalCurriculo>
                 </div>
               </div>
             </div>
@@ -72,9 +96,35 @@ function CardEquipe() {
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
                     Kamila Guimarães
                   </span>
-                  {/* <span className={styles.ocupacaoPessoa}>
-                    Fonoaudióloga infantil
-                  </span> */}
+                  <ModalCurriculo
+                    nomeProfissional={"Kamila Guimarães"}
+                    id={`exampleModal-kamilaGuimaraes`}
+                  >
+                    <p>Fonoaudióloga infantil</p>
+                    <ul>
+                      <li>
+                        Especialização em Intervenções Precoces no Autismo
+                      </li>
+                      <li>
+                        Formação Avançada ESDM certificada pelo UC Davis Mind
+                        Institute da University of California, Sacramento (EUA)
+                      </li>
+                      <li>
+                        Formação em Análise do Comportamento Aplicada (ABA) ao
+                        Transtorno do Espectro Autista
+                      </li>
+                      <li>
+                        Certificação nível 1 PRT (PIVOTAL RESPONSE TREATMENT)
+                      </li>
+                      <li>Certificação PECS nível 1</li>
+                      <li>Certificação PODD </li>
+                      <li>Certificação Core Words</li>
+                      <li>
+                        Cerca de 5 anos de experiência prática com intervenção
+                        precoce naturalista
+                      </li>
+                    </ul>
+                  </ModalCurriculo>
                 </div>
               </div>
             </div>
@@ -89,7 +139,36 @@ function CardEquipe() {
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
                     Gabriella Lima
                   </span>
-                  {/* <span className={styles.ocupacaoPessoa}>Psicóloga</span> */}
+                  <ModalCurriculo
+                    nomeProfissional={"Gabriella Lima"}
+                    id={`exampleModal-gabrielaLima`}
+                  >
+                    <p>Psicóloga CRP 01/23130</p>
+                    <ul>
+                      <li>
+                        {" "}
+                        Formação Avançada no Modelo Denver, certificada pelo UC
+                        Davis Mind Institute da University of California,
+                        Sacramento (EUA)
+                      </li>
+                      <li>
+                        {" "}
+                        Pós-graduanda em Psicologia da Saúde e Hospitalar
+                      </li>
+                      <li>
+                        {" "}
+                        minicurso “terapia analítico-comportamental infantil: a
+                        atuação do terapeuta diante de dificuldades
+                        comportamentais da criança - IBAC{" "}
+                      </li>
+                      <li> curso autismo em Foco</li>
+                      <li>
+                        {" "}
+                        cursando aprimoramento profissional intervenção precoce
+                        no autismo{" "}
+                      </li>
+                    </ul>
+                  </ModalCurriculo>
                 </div>
               </div>
             </div>
@@ -104,9 +183,38 @@ function CardEquipe() {
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
                     Camila Zacarias
                   </span>
-                  {/* <span className={styles.ocupacaoPessoa}>
-                    Educadora Física
-                  </span> */}
+                  <ModalCurriculo
+                    nomeProfissional={"Camila Zacarias"}
+                    id={`exampleModal-camilaZacarias`}
+                  >
+                    <p>Psicóloga CRP 01/21290</p>
+                    <ul>
+                      <li>
+                        Formação Avançada no Modelo Denver, certificada pelo UC
+                        Davis Mind Institute da University of California,
+                        Sacramento (EUA)
+                      </li>
+                      <li>
+                        Pós-graduanda em Neurociências, Educação e
+                        Desenvolvimento Infantil
+                      </li>
+                      <li>Certificação nível 1 e 2 do PEAK</li>
+                      <li>Certificação Inspirados pelo Autismo</li>
+                      <li>Certificação nível 1 do PECS </li>
+                      <li>
+                        Certificação Básica em Integração Sensorial - Clínica
+                        Ludens
+                      </li>
+                      <li>
+                        Certificação Introdutória do VBMAPP (Verbal behavior
+                        Milestones Assessment and Placement Program)
+                      </li>
+                      <li>
+                        Certificação em Seletividade Alimentar no TEA –
+                        Instituto Inclusão Eficiente
+                      </li>
+                    </ul>
+                  </ModalCurriculo>
                 </div>
               </div>
             </div>
@@ -121,7 +229,6 @@ function CardEquipe() {
                   <span className={`${styles.nomePessoa}  ${styles.amarelo}`}>
                     Milena Nascimento
                   </span>
-                  {/* <span className={styles.ocupacaoPessoa}>Psicóloga</span> */}
                 </div>
               </div>
             </div>
